@@ -60,21 +60,25 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Page <a name="about-project"></a>
+
+# 📖 [Portfolio page] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-A protfolio page is
-a page with you personal information to show of for a job
+Portfolio page with flexbox, and with summary and also with social media icons
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML and CSS
+
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Just a portfolio page
+
+> Describe between 1-3 key features of the application.
+a Portfolio page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +86,11 @@ HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> No live demo
+
+No live demo
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,11 +188,17 @@ Example:
 
 - GitHub: [@OnlyUnknown](https://github.com/OnlyUnknown)
 
+=======
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
 
 Not yet
 
