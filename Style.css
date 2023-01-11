@@ -46,14 +46,21 @@ header{
 .title .name{
     color: rgb(23, 11, 69);
     font-size: 40px;
+    font-family: 'inter';
+    font-style: normal;
+    
 }
 .job {
     color: rgb(27, 168, 19);
     font-size: 40px;
+    font-family: 'inter';
 }
 .content{
     padding-left: 40px;
     font-size: 20px;
     font-family: 'inter';
     font-style: normal;
+}
+.social-media {
+    text-align: center;
 }
