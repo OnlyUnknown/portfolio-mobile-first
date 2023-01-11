@@ -1,66 +1,65 @@
 body {
-    background-image:url(Header-pic.png) ;
-    background-size: cover;
+  background-image: url(Header-pic.png);
+  background-size: cover;
 }
-.container {
 
+header {
+  background-color: aliceblue;
+  height: 40px;
 }
-header{
-    
-    background-color: aliceblue;
-    
-    height: 40px;
-    
+
+.navbar {
+  font-size: large;
 }
-.navbar  {
-   font-size: large;
-   
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  padding-left: 20px;
+  font-size: larger;
 }
-.logo{
-    font-family: 'inter';
-    font-style: normal;
-    font: bold;
-    padding-left: 20px;
-    font-size: larger;
-}
+
 .union {
-    float: right;
-    width: 40px;
-    height: 40px;
-    padding-top: 10px;
-    padding-right: 20px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
-.union img {
-    width: 30px;
-    
-}
-.title {
-    padding-top: 100px;
-    padding-left: 40px;
-    font-size: large;
-    text-align: center;
-}
-.title h1 {
 
+.union img {
+  width: 30px;
 }
-.title .name{
-    color: rgb(23, 11, 69);
-    font-size: 40px;
-    font-family: 'inter';
-    font-style: normal;
-    
+
+.title {
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: large;
+  text-align: center;
 }
+
+.title .name {
+  color: rgb(23, 11, 69);
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
 .job {
-    color: rgb(27, 168, 19);
-    font-size: 40px;
-    font-family: 'inter';
+  color: rgb(27, 168, 19);
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
 }
-.content{
-    padding-left: 40px;
-    font-size: 20px;
-    font-family: 'inter';
-    font-style: normal;
+
+.content {
+  padding-left: 40px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
+
 .social-media {
-    text-align: center;
+  text-align: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
