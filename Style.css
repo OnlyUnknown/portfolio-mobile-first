@@ -1,16 +1,18 @@
 body {
   background-image: url(Header-pic.png);
-  background-size: cover;
+  background-repeat: repeat;
 }
 
 header {
   background-color: aliceblue;
   height: 40px;
   display: flex;
+  
 }
 
 .navbar {
   font-size: large;
+  
 }
 
 nav a {
@@ -20,13 +22,14 @@ nav a {
 .logo {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  margin-right: auto;
+  
   font-size: larger;
 }
 
 .union {
   width: 40px;
   height: 40px;
+  
 }
 
 li {
@@ -34,9 +37,7 @@ li {
   margin-left: 10px;
 }
 
-.union img {
-  margin-right: auto;
-}
+
 
 .title {
   padding-top: 100px;
@@ -53,16 +54,19 @@ li {
 }
 
 .job {
+  padding: 10px;
   color: rgb(27, 168, 19);
   font-size: 40px;
   font-family: 'Inter', sans-serif;
 }
 
 .content {
-  padding-left: 40px;
+  display: flex;
+ padding: 40px;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  text-align: center;
 }
 
 .social-media {
