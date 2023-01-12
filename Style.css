@@ -6,25 +6,29 @@ body {
 header {
   background-color: aliceblue;
   height: 40px;
+  display: flex;
+  
 }
 
 .navbar {
   font-size: large;
+  
 }
-
+nav a {
+  margin: 10px;
+}
 .logo {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  padding-left: 20px;
+  margin-right: auto;
   font-size: larger;
 }
 
 .union {
-  float: right;
+  
   width: 40px;
   height: 40px;
-  padding-top: 10px;
-  padding-right: 20px;
+  
 }
 
 .social-media  li{
@@ -32,7 +36,7 @@ header {
 }
 
 .union img {
-  width: 30px;
+  margin-right: auto;
 }
 
 .title {
@@ -67,6 +71,11 @@ header {
 }
 .social-media li{
   margin-left: 10px;
+}
+
+.content p{
+  
+  text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
