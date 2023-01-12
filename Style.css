@@ -27,6 +27,10 @@ header {
   padding-right: 20px;
 }
 
+.social-media  li{
+  display: inline;
+}
+
 .union img {
   width: 30px;
 }
@@ -60,6 +64,9 @@ header {
 
 .social-media {
   text-align: center;
+}
+.social-media li{
+  margin-left: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
