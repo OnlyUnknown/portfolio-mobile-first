@@ -1,77 +1,61 @@
-body {
-  background-image: url(Header-pic.png);
-  background-size: 1000px;
-  background-repeat: repeat-y;
-  background-repeat: repeat-x;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 header {
   background-color: aliceblue;
   height: 40px;
   display: flex;
+  justify-content: space-around;
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
   font-size: large;
-}
-
-nav a {
-  margin: 10px;
+  margin: auto;
+  width: 375px;
 }
 
 .logo {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-size: larger;
+  font-family: inter, sans-serif;
+  font-weight: bold;
+  flex-grow: 0;
 }
 
-.union {
-  width: 40px;
-  height: 40px;
+.flex-cont {
+  background: url(./header-illsutration-mobile@2x.svg) 50% 0% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: inter, sans-serif;
+}
+
+.flex-cont p {
+  font-size: 22px;
+  width: 375px;
+  text-align: center;
+  line-height: 28px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 li {
   display: inline;
-  margin-left: 10px;
+  padding: 10px;
 }
 
-.content-container {
-  display: flex;
-  padding-top: 50px;
-  justify-content: center;
-  font-size: 25px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  flex-wrap: wrap;
-}
-
-.content {
-  margin-left: 35px;
-  margin-right: 35px;
-  text-align: center;
-}
-
+.job,
 .name {
-  color: rgb(23, 11, 69);
-  font-size: 40px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-}
-
-.pusher {
-  margin: 45px;
+  margin-top: 50px;
+  font-size: 42px;
+  line-height: 52px;
+  width: 327px;
   text-align: center;
+  color: rgb(4, 4, 75);
+  font-weight: 10000;
 }
 
 .job {
-  padding: 10px;
-  color: rgb(19, 168, 111);
-  font-size: 40px;
-  font-family: 'Inter', sans-serif;
+  margin-top: -25px;
+  color: rgb(2, 165, 15);
 }
-
-.social-media {
-  text-align: center;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
