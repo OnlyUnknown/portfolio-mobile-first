@@ -7,16 +7,16 @@ header {
   background-color: aliceblue;
   height: 40px;
   display: flex;
-  
 }
 
 .navbar {
   font-size: large;
-  
 }
+
 nav a {
   margin: 10px;
 }
+
 .logo {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -25,14 +25,13 @@ nav a {
 }
 
 .union {
-  
   width: 40px;
   height: 40px;
-  
 }
 
-.social-media  li{
+li {
   display: inline;
+  margin-left: 10px;
 }
 
 .union img {
@@ -69,12 +68,8 @@ nav a {
 .social-media {
   text-align: center;
 }
-.social-media li{
-  margin-left: 10px;
-}
 
-.content p{
-  
+.content p {
   text-align: center;
 }
 
