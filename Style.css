@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-header {
-  background-color: aliceblue;
+header div{
+  width: 375px;
   height: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  
 }
 
 .navbar {
@@ -57,5 +58,5 @@ li {
 
 .job {
   margin-top: -25px;
-  color: rgb(2, 165, 15);
+  color: #36b37f;
 }
