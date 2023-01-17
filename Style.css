@@ -99,3 +99,25 @@ li {
   margin-top: -10px;
   min-width: 375px;
 }
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  width: 350px;
+  height: 475px;
+  border-radius: 8px;
+  justify-content: center;
+ 
+}
+
+.work{
+  display: flex;
+  margin-bottom: 24px;
+  min-width: 327px;
+  min-height: 474px;
+  border:1px solid #D0D9D4;
+  border-radius: 8px;
+  background-color: #EBF0EE;
+  flex-direction: column-reverse;
+}
