@@ -179,3 +179,15 @@ li {
   border: transparent;
  
 }
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 375px;
+  height: 333px;
+ border: solid black;
+}
+.about-container{
+  text-align: center;
+}
