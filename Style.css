@@ -103,9 +103,9 @@ li {
 
 .grid-container{
   display: grid;
-  grid-template-columns: auto;
-  width: 350px;
-  height: 475px;
+  grid-template-columns: 350px;
+  grid-template-rows: 475px;
+  row-gap: 24px;
   border-radius: 8px;
   justify-content: center;
  
@@ -124,25 +124,34 @@ li {
   text-align: center;
 }
 .item {
+  display: flex;
+  flex-direction: column;
   top: 252px;
   height: 222px;
-  width: 327px;
+  width: 348px;
   background-color: #FFFFFF;
   font-size: 24px;
   font-family: inter, sans-serif;
   font-weight: 600;
+  justify-content: center;
+  
+}
+.title-p{
+  display: flex;
+  width: 282px;
+ 
+  padding: 20px;
 }
 .flex-prog {
   display: flex;
   flex-direction: row;
-  width: 305px;
+  width: 345px;
   gap: 8px;
   padding: 0px;
   height: 32px;
   font-size: 12px;
   justify-content: space-around;
   align-items: center;
-
 }
 .prog-li{
   background-color:#D0D9D4 ;
