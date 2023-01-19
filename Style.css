@@ -184,10 +184,35 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 375px;
+  justify-items: center;
+  width: 350px;
   height: 333px;
  border: solid black;
+ background-image: url(./illustration-\ about\ me-\ mobile.svg) 50% 0% no-repeat;
+ font-family: inter, sans-serif;
+ text-align: center;
 }
-.about-container{
+.about-container h1{
+  font-size: 40px;
+  font-weight: 700;
+  height: 48px;
+}
+.cont-about{
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 32px;
+  margin-top: -10px;
+}
+.resume-but{
+  background: #36b37f ;
+  color: white;
+  width: 159px;
+  height: 48px;
+  font-size: 17px;
+  font-weight: 500px;
+  border-radius: 4px;
+  border: transparent;
   text-align: center;
+  align-items: center;
+  margin-top: -10px;
 }
