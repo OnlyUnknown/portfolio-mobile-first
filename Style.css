@@ -80,7 +80,7 @@ li {
   min-width: 355px;
 }
 
-.recent-container h1 {
+.recent-container h2 {
   font-size: 40px;
   text-align: center;
   font-family: inter, sans-serif;
@@ -126,7 +126,7 @@ li {
   display: flex;
   flex-direction: column;
   top: 252px;
-  height: 222px;
+  height: 260px;
   width: 348px;
   background-color: #fff;
   font-size: 24px;
@@ -137,8 +137,10 @@ li {
 
 .title-p {
   display: flex;
+  justify-self: center;
   width: 282px;
-  padding: 20px;
+  padding-left: 40px;
+  text-align: center;
 }
 
 .flex-prog {
