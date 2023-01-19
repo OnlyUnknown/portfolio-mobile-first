@@ -269,10 +269,11 @@ li {
   font-weight: 600;
 }
 
-.languages h1 {
+.languages h2 {
   font-size: 24px;
   font-weight: 600;
   font-style: normal;
   text-align: center;
   color: #344563;
+  font-family: inter, sans-serif;
 }
