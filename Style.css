@@ -289,16 +289,22 @@ button:hover:enabled {
 button:active:enabled {
   color: #0cb653;
 }
-
+footer {
+  background-image: url(Frame.png);
+  background-position: bottom 10% right 0%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
 .form-flex{
   display: flex;
   flex-direction: column;
   width: auto;
-  margin-top: 1050px;
+  margin-top: 780px;
   justify-content: center;
-  height: 363px;
-  width: 327px;
+  min-width: 350px;
+  
   margin-left: 24px;
+  
 }
 
 .text-contact{
