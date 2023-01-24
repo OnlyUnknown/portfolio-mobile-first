@@ -289,25 +289,25 @@ button:hover:enabled {
 button:active:enabled {
   color: #0cb653;
 }
+
 footer {
   background-image: url(Frame.png);
   background-position: bottom 10% right 0%;
   background-repeat: no-repeat;
   background-position-x: right;
 }
-.form-flex{
+
+.form-flex {
   display: flex;
   flex-direction: column;
   width: auto;
   margin-top: 780px;
   justify-content: center;
   min-width: 350px;
-  
   margin-left: 24px;
-  
 }
 
-.text-contact{
+.text-contact {
   height: 363px;
   width: 327px;
   font-size: 40px;
@@ -317,19 +317,21 @@ footer {
   font-weight: 700;
 }
 
-.form{
+.form {
   width: 327px;
   height: 327px;
 }
-.inp-name{
+
+.inp-name {
   width: 327px;
   height: 48px;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 400px;
   line-height: 24px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
 }
+
 .inp-email {
   margin-top: 24px;
   width: 327px;
@@ -338,7 +340,7 @@ footer {
   font-size: 15px;
   font-weight: 400px;
   line-height: 24px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
 }
 
 .inp-text {
@@ -362,18 +364,19 @@ footer {
   margin-top: 24px;
   border: transparent;
   font-size: 17px;
- 
 }
-.social-media2{
-    display: inline;
-    padding: 10px;
-    margin-top: 42px;
+
+.social-media2 {
+  display: inline;
+  padding: 10px;
+  margin-top: 42px;
 }
 
 .social-media2 li {
   width: 20px;
   height: 16px;
 }
+
 .social-media2 p {
   font-family: inter, sans-serif;
   font-size: 20px;
