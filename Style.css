@@ -294,7 +294,7 @@ button:active:enabled {
   display: flex;
   flex-direction: column;
   width: auto;
-  margin-top: 1000px;
+  margin-top: 1050px;
   justify-content: center;
   height: 363px;
   width: 327px;
@@ -322,6 +322,7 @@ button:active:enabled {
   font-size: 15px;
   font-weight: 400px;
   line-height: 24px;
+  border: 1px solid #D0D9D4;
 }
 .inp-email {
   margin-top: 24px;
@@ -331,6 +332,7 @@ button:active:enabled {
   font-size: 15px;
   font-weight: 400px;
   line-height: 24px;
+  border: 1px solid #D0D9D4;
 }
 
 .inp-text {
@@ -341,6 +343,7 @@ button:active:enabled {
   font-size: 15px;
   font-weight: 400px;
   line-height: 24px;
+  border: solid 1px #60c095;
 }
 
 .btn-sub {
@@ -351,4 +354,23 @@ button:active:enabled {
   color: white;
   margin-left: 123px;
   margin-top: 24px;
+  border: transparent;
+  font-size: 17px;
+ 
+}
+.social-media2{
+    display: inline;
+    padding: 10px;
+    margin-top: 42px;
+}
+
+.social-media2 li {
+  width: 20px;
+  height: 16px;
+}
+.social-media2 p {
+  font-family: inter, sans-serif;
+  font-size: 20px;
+  font-weight: 300px;
+  text-align: center;
 }
