@@ -289,3 +289,66 @@ button:hover:enabled {
 button:active:enabled {
   color: #0cb653;
 }
+
+.form-flex{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-top: 1000px;
+  justify-content: center;
+  height: 363px;
+  width: 327px;
+  margin-left: 24px;
+}
+
+.text-contact{
+  height: 363px;
+  width: 327px;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  font-family: inter, sans-serif;
+  font-weight: 700;
+}
+
+.form{
+  width: 327px;
+  height: 327px;
+}
+.inp-name{
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+.inp-email {
+  margin-top: 24px;
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.inp-text {
+  margin-top: 24px;
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.btn-sub {
+  width: 129px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #36b37f;
+  color: white;
+  margin-left: 123px;
+  margin-top: 24px;
+}
