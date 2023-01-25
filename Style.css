@@ -14,6 +14,10 @@ header div {
   min-width: 375px;
 }
 
+.nav-desk{
+  display: none;
+}
+
 span {
   justify-self: flex-end;
   margin-left: auto;
@@ -404,10 +408,24 @@ textarea::placeholder {
   margin-top: 515px;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .flex-cont {
     background: url(./Header-pic.png) 0% 0% no-repeat;
     background-size: 1500.8px;
     height: 1437px;
+  }
+  .navbar{
+    display: none;
+  }
+  .nav-desk{
+    display: block;
+    text-align: center;
+  }
+  .nav-desk a{
+    padding: 12px;
+    font-family: inter, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
   }
 }
