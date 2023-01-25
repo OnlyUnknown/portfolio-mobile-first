@@ -571,6 +571,7 @@ textarea::placeholder {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 200px;
 }
 .form-flex{
   display: none;
@@ -584,8 +585,10 @@ textarea::placeholder {
   border-radius: 4px;
 
 }
-.social-media2{
-  display: none;
+footer{
+  width: 1500px;
+  border-top: 1px solid #DFE1E6;
+  text-align: center;
 }
 .div-name{
   width: 684px;
@@ -615,5 +618,9 @@ textarea::placeholder {
 }
 .btn-sub{
  margin-left: 0px;
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 }
