@@ -558,7 +558,7 @@ textarea::placeholder {
 }
 .form-background{
   background-image: url(./contact\ desktop\ pic\ 1.svg), url(./contact\ desktop\ pic\ 2.svg), url(./contact\ desktop\ pic\ 3.svg);
-  background-position: bottom 10% right 10%;
+  background-position: right, left, bottom 50px left 280px;
   background-repeat: no-repeat;
   display: block;
 }
@@ -604,5 +604,16 @@ textarea::placeholder {
   width: 684px;
   height: 48px;
   border-radius: 4px;
+}
+.text-contact{
+  width: 463px;
+  height: 256px;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 52px;
+  margin-right: 24px;
+}
+.btn-sub{
+ margin-left: 0px;
 }
 }
