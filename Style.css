@@ -202,6 +202,9 @@ li {
   text-align: center;
   margin-bottom: 50px;
 }
+.about-container-d{
+  display: none;
+}
 
 .about-container h3 {
   font-size: 40px;
@@ -512,4 +515,38 @@ textarea::placeholder {
 .indica{
   display: none;
 }
+.about-container{
+  display: none;
+}
+.about-container-d{
+  display: block;
+  background-image: url(./illustration-about\ me-1-desktop.svg), url(./illustration-about-me-2-desktop.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 330px;
+  min-height: 333px;
+  background-position: 100% 0%, 0% 100%;
+  background-repeat: no-repeat;
+  font-family: inter, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 192px;
+}
+
+.about-cont-container{
+  width: 920px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 32px;
+  font-weight: 400;
+  color: #42526E;
+  
+}
+.about-cont-container h3{
+  font-size: 40px;
+  font-weight: 700;
+}
+
 }
