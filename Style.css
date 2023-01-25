@@ -563,7 +563,6 @@ textarea::placeholder {
   display: block;
 }
 .form-flex-d{
- 
   width: 1171px;
   height: 490px;
   display: flex;
@@ -575,5 +574,35 @@ textarea::placeholder {
 }
 .form-flex{
   display: none;
+}
+.myemail{
+  display: none;
+}
+.inp-text{
+  width: 684px;
+  height: 114px;
+  border-radius: 4px;
+
+}
+.social-media2{
+  display: none;
+}
+.div-name{
+  width: 684px;
+}
+#Full-name{
+  width: 330px;
+  height: 48px;
+  float: left;
+}
+#last-name{
+  width: 330px;
+  height: 48px;
+  float: right
+}
+.inp-email{
+  width: 684px;
+  height: 48px;
+  border-radius: 4px;
 }
 }
