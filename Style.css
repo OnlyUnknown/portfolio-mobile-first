@@ -395,3 +395,19 @@ textarea::placeholder {
   font-weight: 400;
   color: #091e42;
 }
+
+.languages-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 515px;
+}
+
+@media screen and (min-width: 768px) {
+  .flex-cont {
+    background: url(./Header-pic.png) 0% 0% no-repeat;
+    background-size: 1500.8px;
+    height: 1437px;
+  }
+}
