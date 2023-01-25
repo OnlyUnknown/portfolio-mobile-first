@@ -556,5 +556,24 @@ textarea::placeholder {
   margin-top: 0px;
   gap: 24px;
 }
-
+.form-background{
+  background-image: url(./contact\ desktop\ pic\ 1.svg), url(./contact\ desktop\ pic\ 2.svg), url(./contact\ desktop\ pic\ 3.svg);
+  background-position: bottom 10% right 10%;
+  background-repeat: no-repeat;
+  display: block;
+}
+.form-flex-d{
+ 
+  width: 1171px;
+  height: 490px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-flex{
+  display: none;
+}
 }
