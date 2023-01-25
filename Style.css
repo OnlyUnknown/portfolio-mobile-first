@@ -548,5 +548,13 @@ textarea::placeholder {
   font-size: 40px;
   font-weight: 700;
 }
+.languages-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  gap: 24px;
+}
 
 }
