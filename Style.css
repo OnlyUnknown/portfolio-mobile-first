@@ -344,9 +344,15 @@ button:active:enabled {
   font-weight: 400px;
   line-height: 24px;
   border: solid 1px #60c095;
-  padding: 10px ;
 }
-
+ input[type="text"]::placeholder{
+padding: 16px;
+font-size: 15px;
+}
+input[type="email"]::placeholder{
+  padding: 16px;
+  font-size: 15px;
+}
 .btn-sub {
   width: 129px;
   height: 48px;
@@ -374,4 +380,10 @@ button:active:enabled {
   font-size: 20px;
   font-weight: 300px;
   text-align: center;
+}
+textarea::placeholder{
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #091E42;
 }
