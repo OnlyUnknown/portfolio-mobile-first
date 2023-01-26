@@ -486,6 +486,7 @@ textarea::placeholder {
   }
   .downbutton{
     animation: fadeIn 5s;
+    border: 0px black solid;
   }
 
   .recent-container {
