@@ -635,3 +635,13 @@ textarea::placeholder {
     margin-bottom: -20px;
   }
 }
+.trans-btn {
+  transition: width 2s, height 3s; 
+ }
+ 
+.trans-btn:hover,
+.trans-btn:focus{
+  width: 135px;
+  height: 50px;
+}
+
