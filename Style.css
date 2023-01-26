@@ -454,12 +454,6 @@ textarea::placeholder {
     animation: fadeIn 5s;
   }
 }
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 .job,
 .name {
   margin-top: 50px;
@@ -508,6 +502,11 @@ textarea::placeholder {
   margin-left: 30px;
   margin-right: 30px;
   font-weight: 700;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .grid-container {
