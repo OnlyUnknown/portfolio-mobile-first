@@ -588,6 +588,7 @@ textarea::placeholder {
     width: 684px;
     height: 114px;
     border-radius: 4px;
+    transition: width 1s, height 1s;
   }
 
   footer {
@@ -626,6 +627,11 @@ textarea::placeholder {
     line-height: 52px;
     margin-right: 24px;
   }
+  .inp-text:focus{
+    width: 704px;
+    height: 134px;
+  }
+  
 
   .btn-sub {
     margin-left: 0;
@@ -638,10 +644,11 @@ textarea::placeholder {
 .trans-btn {
   transition: width 2s, height 3s; 
  }
- 
+
 .trans-btn:hover,
 .trans-btn:focus{
   width: 135px;
   height: 50px;
 }
+
 
