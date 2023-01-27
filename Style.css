@@ -427,7 +427,10 @@ textarea::placeholder {
     font-family: inter, sans-serif;
     height: 756px;
   }
-
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
   .navbar {
     display: none;
   }
@@ -450,6 +453,7 @@ textarea::placeholder {
     text-align: center;
     line-height: 32px;
     height: 96px;
+    animation: fadeIn 5s;
     font-weight: 400;
     animation: fadeIn 5s;
   }
@@ -477,11 +481,13 @@ textarea::placeholder {
   .social-media-d {
     display: inline-block;
     animation: fadeIn 5s;
+
   }
 
   .downbutton {
     animation: fadeIn 5s;
     border: 0 black solid;
+
   }
 
   .recent-container {
