@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img/>
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Read me</b></h3>
 
 </div>
 
@@ -68,8 +68,9 @@ After you're finished please remove all the comments and instructions!
 Portfolio page with flexbox, and with summary and also with social media icons
 
 ## 🛠 Built With <a name="built-with"></a>
-HTML and CSS
-
+-HTML
+-CSS
+-JS
 
 
 <!-- Features -->
@@ -99,8 +100,9 @@ https://onlyunknown.github.io/portfolio-mobile-first/
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > Describe how a new developer could make use of your project.
+It is a portfolio project so this could make the user able to see my recent work
+the frameworks that has been used and the program languages has been used.
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -184,9 +186,13 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Abdullah Al-Khureif**
 
 - GitHub: [@OnlyUnknown](https://github.com/OnlyUnknown)
+
+👤 **Abdullah Mamun**
+
+- GitHub:[@Md.Abdullah al mamun](https://github.com/dev-mamun)
 
 =======
 
@@ -234,19 +240,6 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
