@@ -63,7 +63,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio page] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 Portfolio page with flexbox, and with summary and also with social media icons
 
@@ -78,7 +77,6 @@ Portfolio page with flexbox, and with summary and also with social media icons
 ### Key Features <a name="key-features"></a>
 
 
-> Describe between 1-3 key features of the application.
 a Portfolio page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,7 +97,6 @@ https://onlyunknown.github.io/portfolio-mobile-first/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 It is a portfolio project so this could make the user able to see my recent work
 the frameworks that has been used and the program languages has been used.
 
