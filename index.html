@@ -17,11 +17,11 @@
                     
                 <a class="logo" >Abdullah</a>
             <ul id="nav-links" class="navu-menu">
-                <li><a id="nav-b" href="#Projects" onclick="myFunction()" >Projects</a></li>
-                <li><a id="nav-b" href="#About" onclick="myFunction()" >About</a></li>
-                <li><a id="nav-b" href="#Contact" onclick="myFunction()" >Contact</a></li>
+                <li><a id="nav-b" href="#Projects" onclick="myFunction();changeIcon(this);">Projects</a></li>
+                <li><a id="nav-b" href="#About" onclick="myFunction();">About</a></li>
+                <li><a id="nav-b" href="#Contact" onclick="myFunction();changeIcon(this);">Contact</a></li>
             </ul>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction();changeIcon(this);">
                 <i id="btn" class="fa fa-bars"></i>
               </a> 
               
@@ -238,7 +238,7 @@
 </div>
     </section>
     <hr>
-    <footer class="social-media2">
+    <footer id="footer-social" class="social-media2">
         <ul>
             <li><a href="#"><img src="twitter.svg"></a></li>
             <li><a href="#"><img src="medium.svg"></a></li>
