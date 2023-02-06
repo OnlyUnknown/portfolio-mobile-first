@@ -447,6 +447,9 @@ textarea::placeholder {
     font-family: inter, sans-serif;
     font-size: 15px;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .flex-cont p {
