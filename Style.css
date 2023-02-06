@@ -8,7 +8,7 @@ header div {
 }
 
 .navbar {
-  display: flex;
+  position: relative;
   font-size: large;
   margin: auto;
   min-width: 375px;
@@ -19,14 +19,37 @@ header div {
 
 #nav-links{
   display: none;
+  width: auto;
+
+}
+
+#nav-links a{
+  height: 24px;
+width: 251px;
+left: 0px;
+top: 8px;
+border-radius: nullpx;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.mobile-cont {
+  margin: auto;
+  background-color: #ffffff;
+  color: white;
+  border-radius: 10px;
 }
 
 .navbar a.icon{
   background: rgb(255, 255, 255);
   display: block;
   position: absolute;
-  right: 0;
   top: 0;
+  right: 0;
 }
 
 .navbar a{

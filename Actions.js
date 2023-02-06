@@ -1,8 +1,8 @@
-function openNav() {
-    document.getElementById("navbar").style.width = "250px";
-  }
-  
-  /* Set the width of the sidebar to 0 (hide it) */
-  function closeNav() {
-    document.getElementById("navbar").style.width = "0";
+function myFunction() {
+    var x = document.getElementById("nav-links");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
   }
