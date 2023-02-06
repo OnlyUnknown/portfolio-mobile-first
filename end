@@ -1,0 +1,256 @@
+[33mcommit 210e891844ff3e75ed7bcce422ea55536d6cec21[m[33m ([m[1;36mHEAD -> [m[1;32mmobile-menu[m[33m, [m[1;32mmain[m[33m)[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Mon Feb 6 14:08:41 2023 +0300
+
+    Have added scrollspy and decoration for the menu
+
+[33mcommit 1b132e2e464c6490dad1df33c43c1b4eb5a05576[m
+Merge: ba8c32a 2a534dd
+Author: OnlyUnknown <116448416+OnlyUnknown@users.noreply.github.com>
+Date:   Fri Jan 27 07:37:31 2023 +0000
+
+    Merge pull request #5 from OnlyUnknown/Transitions-and-animations
+    
+    Transitions and animations
+
+[33mcommit 2a534dd0b0b2397ad953986fcd5f407e60129540[m[33m ([m[1;31morigin/Transitions-and-animations[m[33m)[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Fri Jan 27 10:35:28 2023 +0300
+
+    Added linters again
+
+[33mcommit ea6232ee5289600e219120b796152453ea47c6fe[m
+Merge: 5141ea2 53b399f
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Fri Jan 27 10:32:34 2023 +0300
+
+    Merge branch 'Transitions-and-animations' of https://github.com/OnlyUnknown/portfolio-mobile-first into Transitions-and-animations
+
+[33mcommit 5141ea2388fd72585eaa5dca066a04c9d35de0ff[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Fri Jan 27 10:32:14 2023 +0300
+
+    Readjusted some Measurement
+
+[33mcommit 53b399f5eabe76477665dfc4bf3029b2fb9cb340[m
+Merge: d65dc04 ba8c32a
+Author: OnlyUnknown <116448416+OnlyUnknown@users.noreply.github.com>
+Date:   Fri Jan 27 07:29:30 2023 +0000
+
+    Merge branch 'main' into Transitions-and-animations
+
+[33mcommit d65dc04a87ff09d6d71ed14b9a56303650593100[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Fri Jan 27 10:24:05 2023 +0300
+
+    I have added linters
+
+[33mcommit d05ddaf422451edc49ae811976ac802f2e130452[m
+Author: malembi <samirmaleymbi@yahoo.com>
+Date:   Thu Jan 26 22:08:33 2023 +0300
+
+    additons to style.css file
+
+[33mcommit ba8c32ad9044a406cf4073c55c997516fdac4f21[m
+Author: malembi <samirmaleymbi@yahoo.com>
+Date:   Thu Jan 26 21:43:02 2023 +0300
+
+    additions on style.css
+
+[33mcommit b939acb09cf91ba39efcfe8c6fd38f81ec3bbad3[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 26 19:55:51 2023 +0300
+
+    Linters
+
+[33mcommit 6e0a747ea6eb8609ed88febfb8f639d5f7a918be[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 26 19:22:36 2023 +0300
+
+    Animations has been added
+
+[33mcommit ccf697ae760c77b1e8a0374bcd0f545b956eaa17[m[33m ([m[1;31morigin/remote[m[33m, [m[1;31morigin/new-branch[m[33m)[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 26 15:51:35 2023 +0300
+
+    Added transmision to the text
+
+[33mcommit e6bf388d6fe58570810b29fce0822f5a01f336ae[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 26 14:54:38 2023 +0300
+
+    Inp-text has been Transisioned
+
+[33mcommit cdeefe47ef6703286f8a87ab3cf57af83fafcd5b[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 26 14:15:10 2023 +0300
+
+    Button transition has been added
+
+[33mcommit 022669e2615dedf562e1de2c7d3c4a9f389763e7[m
+Merge: 33ef5b8 9a9ad25
+Author: OnlyUnknown <116448416+OnlyUnknown@users.noreply.github.com>
+Date:   Wed Jan 25 20:19:18 2023 +0000
+
+    Merge pull request #4 from OnlyUnknown/Disktop-version
+    
+    Disktop version
+
+[33mcommit 9a9ad25088ded1ab967f99e543ba3e04a57c22f2[m[33m ([m[1;31morigin/Disktop-version[m[33m)[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 23:08:39 2023 +0300
+
+    Redont the two name input into one
+
+[33mcommit a0dc3280979a9a321f8d92cb6995fe7b75a430a5[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 22:19:35 2023 +0300
+
+    Linters has been added
+
+[33mcommit 018094596dab497c5eb21b1e6ddf6ce80d823ebc[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 22:13:25 2023 +0300
+
+    footer has been added
+
+[33mcommit cec38e7e593cde2b7f5dd2f50d012ff2f6e5a161[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 22:02:13 2023 +0300
+
+    background has been adjusted
+
+[33mcommit 6ec39e5d0929711e2ffa3b19a296631e2e12856c[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 21:46:55 2023 +0300
+
+    readjusted the inputs
+
+[33mcommit a90d57ec9dfe214a12ebaf84e7bd3c33431faf6e[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 21:27:18 2023 +0300
+
+    Contact form has been ajusted with need of some more adjustment
+
+[33mcommit c6989517c984ffa7782f336eebd20eb6e34b7cab[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 20:19:15 2023 +0300
+
+    about me content has been adjusted
+
+[33mcommit bf71547debe6e4efb5f07cf0b89201abf70e915b[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 20:10:23 2023 +0300
+
+    About me adjusted with background has been added
+
+[33mcommit ef26e2de8c9d29fa235ab2d01e8220153a037a25[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 19:54:39 2023 +0300
+
+    Grid has been adjusted
+
+[33mcommit 67cb19408abf95298c5fa5babbdd0d1ac17d5a59[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 16:26:40 2023 +0300
+
+    navbar has been adjusted
+
+[33mcommit 33ef5b897db49d298aeacd82d02622c3657cf614[m
+Merge: 9982a42 bfacedc
+Author: OnlyUnknown <116448416+OnlyUnknown@users.noreply.github.com>
+Date:   Wed Jan 25 12:45:34 2023 +0000
+
+    Merge pull request #3 from OnlyUnknown/contact-form
+    
+    Contact form
+
+[33mcommit bfacedc0ac7c8c7d0b8b06dc825db91340bdca2b[m[33m ([m[1;31morigin/contact-form[m[33m)[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 14:15:50 2023 +0300
+
+    grid has been aligned and validation has been added
+
+[33mcommit 98f40c67dc7a3d3859a7e2dbd3be5ec15fb18e5e[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 12:09:29 2023 +0300
+
+    linters has been added
+
+[33mcommit 1f883a847205f97009f39aab6294f2cc4bcdd037[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 12:02:19 2023 +0300
+
+    Place holder has been adjusted and color has been changed for text area place holder
+
+[33mcommit 77411ec580cd8f384603af76e1ccc71f1a2982ff[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Wed Jan 25 11:51:09 2023 +0300
+
+    Content has been aliend to the center
+
+[33mcommit d1b2b93a1b49d1ecd1f0b9fa8848a47c1b40dc45[m
+Author: malembi <samirmaleymbi@yahoo.com>
+Date:   Wed Jan 25 10:52:14 2023 +0300
+
+    changed the footer to section
+
+[33mcommit 071b52e6302b5f1a46577a7c9ed2bf289eeb8863[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Tue Jan 24 18:22:13 2023 +0300
+
+    linters has been added
+
+[33mcommit 6a1134e305cdd56a552ca808fd8fac02d018a173[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Tue Jan 24 18:18:35 2023 +0300
+
+    background has been added
+
+[33mcommit d07262f3b9b83e10f216763422168dcae6c9aeba[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Tue Jan 24 18:03:30 2023 +0300
+
+    action form has been added
+
+[33mcommit ddcbdff19324b395e1bcc2b60697d336d8c0074a[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Tue Jan 24 17:27:18 2023 +0300
+
+    added styles to the input holders and social media icons
+
+[33mcommit 34f97c32da14281517f7cb7f523841d915fa21ba[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Tue Jan 24 16:35:29 2023 +0300
+
+    Styled the contact
+
+[33mcommit 254f1b70c35af98fc06efbab922c18ac08fc6fbf[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Tue Jan 24 16:03:26 2023 +0300
+
+    contact form has been added
+
+[33mcommit 9982a4282404c23c5a60b54fa5f811e0b7644b4e[m[33m ([m[1;31morigin/Float-Portfoilo[m[33m)[m
+Merge: 5551177 05bec80
+Author: OnlyUnknown <116448416+OnlyUnknown@users.noreply.github.com>
+Date:   Thu Jan 19 15:27:06 2023 +0000
+
+    Merge pull request #2 from OnlyUnknown/Work-and-About-me-section
+    
+    Work and about me section
+
+[33mcommit 05bec804af4b7cfef008273b9df7f2e077efc7c3[m[33m ([m[1;31morigin/Work-and-About-me-section[m[33m)[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 19 18:08:57 2023 +0300
+
+    Forgot about the linter
+
+[33mcommit 65f9a296c1e95ef4854aed4564cfe33a7407b1c7[m
+Author: Abdullah <abdullahkhrief@gmail.com>
+Date:   Thu Jan 19 18:03:54 2023 +0300
+
+    Background about me has been added
+
+[33mcommit c8ac259d37ffb5710f3ffb1b8e8d0de989884e10[m
+Author: Abdullah 
