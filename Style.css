@@ -718,7 +718,22 @@ textarea::placeholder {
   .pop-container{
     width: 920px;
     height: 1083px;
-    background-color: #EBECF0;
+    background-color: #ffffff;
     border: solid 1px #EBECF0;
+  }
+  #pop-close{
+    
+margin-left: 8px;
+margin-top: 2px;
+
+  }
+  .close-background{
+    float: right;
+    background-color: #EBECF0;
+    height: 40px;
+    width: 40px;
+    margin-top: 24px;
+    margin-right: 24px;
+    
   }
 }
