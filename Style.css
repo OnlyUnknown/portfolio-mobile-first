@@ -776,20 +776,21 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  .button-pop{
     height: 48px;
-    width: 141px;
+    width: 300px;
     left: 728px;
     top: 0px;
     border-radius: 8px;
-    padding: 12px;
     font-size: 15px;
     text-align: left;
   }
-
+  .pop-btn{
+    padding-top: 5px;
+  }
+ 
   .pop-icon{
-    padding-left: 5px;
+    float: right;
+    
     
   }
 }
