@@ -8,10 +8,54 @@ header div {
 }
 
 .navbar {
-  display: flex;
+  position: relative;
   font-size: large;
   margin: auto;
   min-width: 375px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#nav-links {
+  display: none;
+  height: 1000px;
+}
+
+#nav-links a {
+  height: 24px;
+  width: 251px;
+  left: 0;
+  top: 8px;
+  border-radius: nullpx;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.mobile-cont {
+  margin: auto;
+  background-color: #fff;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar a.icon {
+  background: rgb(255, 255, 255);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .nav-desk {
@@ -447,6 +491,9 @@ textarea::placeholder {
     font-family: inter, sans-serif;
     font-size: 15px;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .flex-cont p {
