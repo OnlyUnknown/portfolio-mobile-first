@@ -715,4 +715,10 @@ textarea::placeholder {
     width: 135px;
     height: 51px;
   }
+  .pop-container{
+    width: 920px;
+    height: 1083px;
+    background-color: #EBECF0;
+    border: solid 1px #EBECF0;
+  }
 }
