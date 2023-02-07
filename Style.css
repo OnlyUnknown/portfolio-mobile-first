@@ -459,6 +459,10 @@ textarea::placeholder {
   margin-top: 515px;
 }
 
+.popup-d{
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .flex-cont {
     display: flex;
@@ -832,6 +836,7 @@ textarea::placeholder {
   }
   
   .popup-d{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -845,6 +850,83 @@ textarea::placeholder {
     backdrop-filter: blur(5px);
   }
 
-  
 
+}
+
+.pop-mobile-container{
+  height: 836px;
+  width: 343px;
+  left: 16px;
+  top: 20px;
+  border-radius: 16px;
+  padding: 16px;
+  color: #172B4D;
+  border: #091e42 solid 1px;
+}
+
+.mobile-pop-title{
+  height: 135px;
+width: 259px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+font-family: Inter,sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.pop-prog-flex{
+  height: 32px;
+width: 246px;
+left: 0px;
+top: 147px;
+border-radius: 0px;
+margin-top: -13px;
+}
+
+.mobile-msg-pop{
+  height: 313px;
+width: 311px;
+left: 0px;
+top: 0px;
+font-family: Inter,sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.btn-pop{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 56px;
+  width: 311px;
+  left: 16px;
+  top: 764px;
+  border-radius: 0px;
+  font-size: 15px;
+  text-align: left;
+  
+}
+
+.pop-btn{
+  margin: 5px;
+
+}
+
+.pop-mobile-close{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.img-pop-holder{
+  position: relative;
 }
