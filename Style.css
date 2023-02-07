@@ -790,7 +790,29 @@ textarea::placeholder {
  
   .pop-icon{
     float: right;
-    
-    
   }
+
+  .prog-li-pop {
+    background-color: #EBECF0;
+    border-radius: 4px;
+    font-style: normal;
+    color: #344563;
+    margin: auto;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    margin-left: -40px;
+  }
+
+  .pop-prog-flex{
+    display: flex;
+    height: 32px;
+    width: 500px;
+    border-radius: 0px;
+    margin-top: 50px;
+  }
+
+
 }
