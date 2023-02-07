@@ -715,18 +715,19 @@ textarea::placeholder {
     width: 135px;
     height: 51px;
   }
+
   .pop-container{
     width: 920px;
     height: 1083px;
     background-color: #ffffff;
     border: solid 1px #EBECF0;
   }
-  #pop-close{
-    
-margin-left: 8px;
-margin-top: 2px;
 
+  #pop-close{
+    margin-left: 8px;
+    margin-top: 2px;
   }
+
   .close-background{
     float: right;
     background-color: #EBECF0;
@@ -734,6 +735,11 @@ margin-top: 2px;
     width: 40px;
     margin-top: 24px;
     margin-right: 24px;
+  }
+
+  .pop-img{
+    position: relative;
+    margin-top: 78px;
     
   }
 }
