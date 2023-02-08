@@ -273,7 +273,7 @@
                     1960s with the relea</p></div>
         </div>
     </section>
-    <section>
+    <section class="background-pop">
         <div class="pop-mobile-container">
             <div class="img-pop-holder">
                 <img src="Mobile-pop.png">
@@ -302,7 +302,17 @@
         </div>
     </section>
     <script>
-     
+     var seeprojectm = document.querySelector(".pop-mobile-container");
+var seebtnm = document.querySelector("#myBtn");
+var closebtnm = document.querySelector(".pop-mobile-close");
+
+seebtnm.onclick = function() {
+  seeprojectm.style.display = "block"
+};
+
+closebtnm.onclick = function() {
+  seeprojectm.style.display = "none"
+};
 
         </script>
 </body>
