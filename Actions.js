@@ -16,29 +16,26 @@ function changeIcon() {
 document.getElementById('nav-links').addEventListener('click', myFunction);
 document.getElementById('btn').addEventListener('click', changeIcon());
 
-var seeproject = document.querySelector(".popup-d");
-var seebtn = document.querySelector("#myBtn");
-var closebtn = document.querySelector(".close-background");
+const seeproject = document.querySelector('.popup-d');
+const seebtn = document.querySelector('#myBtn');
+const closebtn = document.querySelector('.close-background');
 
-seebtn.onclick = function() {
-  seeproject.style.display = "block"
+seebtn.onclick = function aaa() {
+  seeproject.style.display = 'block';
 };
 
-
-closebtn.onclick = function() {
-  seeproject.style.display = "none"
+closebtn.onclick = function bbb() {
+  seeproject.style.display = 'none';
 };
 
+const seeprojectm = document.querySelector('.pop-mobile-container');
+const seebtnm = document.querySelector('#myBtn');
+const closebtnm = document.querySelector('.pop-mobile-close');
 
-var seeprojectm = document.querySelector(".pop-mobile-container");
-var seebtnm = document.querySelector("#myBtn");
-var closebtnm = document.querySelector(".pop-mobile-close");
-
-seebtnm.onclick = function() {
-  seeprojectm.style.display = "block"
+seebtnm.onclick = function ccc() {
+  seeprojectm.style.display = 'block';
 };
 
-
-closebtn.onclick = function() {
-  seeprojectm.style.display = "none"
+closebtnm.onclick = function ddd() {
+  seeprojectm.style.display = 'none';
 };

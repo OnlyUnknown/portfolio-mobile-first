@@ -459,7 +459,7 @@ textarea::placeholder {
   margin-top: 515px;
 }
 
-.popup-d{
+.popup-d {
   display: none;
 }
 
@@ -720,89 +720,87 @@ textarea::placeholder {
     height: 51px;
   }
 
-  .pop-container{
+  .pop-container {
     width: 920px;
     height: 1083px;
-    background-color: #ffffff;
-    border: solid 1px #EBECF0;
+    background-color: #fff;
+    border: solid 1px #ebecf0;
     padding: 24px;
   }
 
-  .pop-img{
+  .pop-img {
     margin-top: 78px;
   }
 
-  #pop-close{
+  #pop-close {
     margin-left: 8px;
     margin-top: 2px;
   }
 
-  .close-background{
+  .close-background {
     float: right;
-    background-color: #EBECF0;
+    background-color: #ebecf0;
     height: 40px;
     width: 40px;
     margin-top: 24px;
     margin-right: 24px;
   }
 
-  .pop-title{
+  .pop-title {
     position: relative;
     width: 589px;
     height: 82px;
-    
   }
 
-  .pop-title h2{
-    font-family: Inter;
+  .pop-title h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
-    color: #172B4D;
+    color: #172b4d;
   }
 
-  .pop-title-container{
+  .pop-title-container {
     display: flex;
     flex-direction: row;
     height: 82px;
     width: 869px;
     left: 26px;
     top: 718px;
-    border-radius: 0px;
+    border-radius: 0;
   }
 
-
-  .btn-pop{
+  .btn-pop {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 48px;
     width: 300px;
     left: 728px;
-    top: 0px;
+    top: 0;
     border-radius: 8px;
     font-size: 15px;
     text-align: left;
   }
-  .pop-btn{
+
+  .pop-btn {
     padding-top: 5px;
   }
- 
-  .pop-icon{
+
+  .pop-icon {
     float: right;
   }
 
   .prog-li-pop {
-    background-color: #EBECF0;
+    background-color: #ebecf0;
     border-radius: 4px;
     font-style: normal;
     color: #344563;
     margin: auto;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
@@ -810,32 +808,32 @@ textarea::placeholder {
     margin-left: -40px;
   }
 
-  .pop-prog-flex{
+  .pop-prog-flex {
     display: flex;
     height: 32px;
     width: 500px;
-    border-radius: 0px;
+    border-radius: 0;
     margin-top: 50px;
   }
 
-  .pop-msg{
-    font-family: Inter;
+  .pop-msg {
+    font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
-  .msg-contaier-pop{
+  .msg-contaier-pop {
     height: 151px;
     width: 876px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: nullpx;
   }
-  
-  .popup-d{
+
+  .popup-d {
     display: none;
     position: fixed;
     top: 0;
@@ -846,17 +844,16 @@ textarea::placeholder {
     z-index: 1;
     overflow: auto;
     padding-left: 284px;
-    background-color: rgba(0,0,100,0.4);
+    background-color: rgba(0, 0, 100, 0.4);
     backdrop-filter: blur(5px);
   }
-  .pop-mobile-container{
+
+  .pop-mobile-container {
     display: none;
   }
-
-
 }
 
-.pop-mobile-container{
+.pop-mobile-container {
   display: none;
   max-height: 836px;
   max-width: 343px;
@@ -865,76 +862,71 @@ textarea::placeholder {
   border-radius: 16px;
   padding-left: 16px;
   padding-top: 16px;
-  padding-bottom: 16px ;
-  color: #172B4D;
+  padding-bottom: 16px;
+  color: #172b4d;
   border: #091e42 solid 1px;
-  display: none;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 0;
-    overflow: auto;
-    background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(0px);
-   
-   
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  overflow: auto;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(0);
 }
 
-.mobile-pop-title{
+.mobile-pop-title {
   height: 135px;
-width: 259px;
-left: 0px;
-top: 0px;
-border-radius: nullpx;
-font-family: Inter,sans-serif;
-font-size: 32px;
-font-weight: 600;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-
+  width: 259px;
+  left: 0;
+  top: 0;
+  border-radius: nullpx;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
-.pop-prog-flex{
+.pop-prog-flex {
   height: 32px;
-width: 246px;
-left: 0px;
-top: 147px;
-border-radius: 0px;
-margin-top: -13px;
-margin-left: -40px;
+  width: 246px;
+  left: 0;
+  top: 147px;
+  border-radius: 0;
+  margin-top: -13px;
+  margin-left: -40px;
 }
 
 .prog-li-pop {
-    background-color: #EBECF0;
-    border-radius: 4px;
-    font-style: normal;
-    color: #344563;
-    margin: auto;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    margin-left: 0px;
-  }
-
-.mobile-msg-pop{
-  height: 313px;
-width: 311px;
-left: 0px;
-top: 0px;
-font-family: Inter,sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-
+  background-color: #ebecf0;
+  border-radius: 4px;
+  font-style: normal;
+  color: #344563;
+  margin: auto;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-left: 0;
 }
 
-.btn-pop{
+.mobile-msg-pop {
+  height: 313px;
+  width: 311px;
+  left: 0;
+  top: 0;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.btn-pop {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -942,30 +934,28 @@ text-align: left;
   width: 311px;
   left: 16px;
   top: 764px;
-  border-radius: 0px;
+  border-radius: 0;
   font-size: 15px;
   text-align: left;
-  
 }
 
-.pop-btn{
+.pop-btn {
   margin: 5px;
-
 }
 
-.pop-mobile-close{
+.pop-mobile-close {
   position: absolute;
   top: 15px;
   right: 52px;
   font-size: 24px;
- color: white; 
+  color: white;
 }
 
-.img-pop-holder{
+.img-pop-holder {
   position: relative;
 }
 
-.background-pop{
+.background-pop {
   background-image: url(./about-me-back.jpeg);
   background-size: cover;
   color: #091e42;
