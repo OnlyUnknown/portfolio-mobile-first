@@ -17,7 +17,7 @@ document.getElementById('nav-links').addEventListener('click', myFunction);
 document.getElementById('btn').addEventListener('click', changeIcon());
 
 var seeproject = document.querySelector(".popup-d");
-var seebtn = document.querySelector("#myBtn");
+var seebtn = document.querySelectorAll("*");
 var closebtn = document.querySelector(".close-background");
 
 seebtn.onclick = function() {

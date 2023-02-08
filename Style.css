@@ -849,17 +849,23 @@ textarea::placeholder {
     background-color: rgba(0,0,100,0.4);
     backdrop-filter: blur(5px);
   }
+  .pop-mobile-container{
+    display: none;
+  }
 
 
 }
 
 .pop-mobile-container{
+  
   height: 836px;
   width: 343px;
   left: 16px;
   top: 20px;
   border-radius: 16px;
-  padding: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px ;
   color: #172B4D;
   border: #091e42 solid 1px;
 }
@@ -886,7 +892,22 @@ left: 0px;
 top: 147px;
 border-radius: 0px;
 margin-top: -13px;
+margin-left: -40px;
 }
+
+.prog-li-pop {
+    background-color: #EBECF0;
+    border-radius: 4px;
+    font-style: normal;
+    color: #344563;
+    margin: auto;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    margin-left: 0px;
+  }
 
 .mobile-msg-pop{
   height: 313px;
@@ -923,8 +944,10 @@ text-align: left;
 
 .pop-mobile-close{
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 15px;
+  right: 52px;
+  font-size: 24px;
+  visibility:hidden;
 }
 
 .img-pop-holder{
