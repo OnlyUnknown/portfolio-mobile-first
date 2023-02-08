@@ -28,7 +28,7 @@ closebtn.onclick = function bbb() {
   seeproject.style.display = 'none';
 };
 
-const seeprojectm = document.querySelector('.pop-mobile-container');
+const seeprojectm = document.querySelector('.popup-d');
 const seebtnm = document.querySelector('#myBtn');
 const closebtnm = document.querySelector('.pop-mobile-close');
 
@@ -39,3 +39,12 @@ seebtnm.onclick = function ccc() {
 closebtnm.onclick = function ddd() {
   seeprojectm.style.display = 'none';
 };
+
+
+const projects = [{
+  name: "Multi-Post Stories Gain+Glory",
+  description: "A platform website built as part of the Microverse JavaScript program.",
+  image: "Snapshoot Portfolio.png",
+  technologies: ["Ruby on Rails","CSS", "JavaScript", "HTML"],
+  link: "https://onlyunknown.github.io/portfolio-mobile-first",
+}]
