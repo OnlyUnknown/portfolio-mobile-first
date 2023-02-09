@@ -20,9 +20,6 @@ const seeproject = document.querySelector('#pop-1');
 const seebtn = document.querySelector("#myBtn");
 
 
-
-const closebtnm = document.querySelector('.pop-mobile-close');
-
 const projects = [{
   projectId: 'projectOne',
   name: 'Multi-Post Stories Gain+Glory',
@@ -164,8 +161,11 @@ seebtn.addEventListener("click", sss);
 
 function sss(){
 const closebtn = document.querySelector('.close-background');
-
+const closebtnm = document.querySelector('.pop-mobile-close');
+closebtnm.onclick = function(){
+  seeproject.innerHTML = ''
+};
 closebtn.onclick = function() {
   seeproject.innerHTML = '';
 };
-}
+};
