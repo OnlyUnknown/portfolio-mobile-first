@@ -16,20 +16,107 @@ function changeIcon() {
 document.getElementById('nav-links').addEventListener('click', myFunction());
 document.getElementById('btn').addEventListener('click', changeIcon());
 
-const seeproject = document.querySelector('.popup-d');
-const seebtn = document.querySelector('#myBtn');
-const closebtn = document.querySelector('.close-background');
+const seeproject = document.querySelector('#pop-1');
+const seebtn = document.querySelector("#myBtn");
 
-seebtn.onclick = function aaa() {
-  seeproject.style.display = 'block';
-};
+
 
 const closebtnm = document.querySelector('.pop-mobile-close');
 
-// projects.forEach((item, index) => {
-//   // write daynamic list
-//   console.log(item, index);
-// });
+const projects = [{
+  projectId: 'projectOne',
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+},
+
+{
+  projectId: 'projectTwo',
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+},
+
+{
+  projectId: 'projectThree',
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+},
+
+{
+  projectId: 'projectFour',
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+},
+
+{
+  projectId: 'projectFive',
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+},
+
+{
+  projectId: 'projectSix',
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
+  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+},
+
+];
+
+
+
 
 // eslint-disable-next-line no-unused-vars
 const html = `<section class="popup-d" id="myModal">
@@ -63,14 +150,22 @@ const html = `<section class="popup-d" id="myModal">
       <div class="button-p btn-pop pop-img-p"><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></div>
   </div></section>`;
 
-seebtn.onclick = function aaa() {
-  document.getElementById('pop-1').innerHTML = html;
-};
+  projects.forEach((item, index) => {
+    // write daynamic list
+    console.log(item, index);
+  });
 
-closebtn.onclick = function ddd() {
-  document.getElementById('pop-1').innerHTML = '';
-};
+ 
 
-closebtnm.onclick = function ddd3() {
-  document.getElementById('pop-1').innerHTML = '';
+seebtn.onclick = function() {
+  seeproject.innerHTML = html;
 };
+seebtn.addEventListener("click", sss);
+
+function sss(){
+const closebtn = document.querySelector('.close-background');
+
+closebtn.onclick = function() {
+  seeproject.innerHTML = '';
+};
+}
