@@ -127,5 +127,6 @@ const projects = [{
 ];
 
 projects.forEach((item, index) => {
+  // write daynamic list
   console.log(item, index);
 });
