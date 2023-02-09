@@ -40,89 +40,92 @@ closebtnm.onclick = function ddd() {
   seeprojectm.style.display = 'none';
 };
 
-
 const projects = [{
-  name: "Multi-Post Stories Gain+Glory",
-  description: "Lorem Ipsum is simply dummy text of the printing"
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + "text ever since the 1500s, when an unknown printer took a galley of type and"
-  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing "
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image: "Snapshoot Portfolio.png",
-  technologies: ["Codekit","GitHub", "JavaScript", "Bootsrap", "Terminal", "Codepen"],
-  link: "https://onlyunknown.github.io/portfolio-mobile-first",
-  source: "https://onlyunknown.github.io/portfolio-mobile-first",
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
 
 {
-  name: "Multi-Post Stories Gain+Glory",
-  description: "Lorem Ipsum is simply dummy text of the printing"
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + "text ever since the 1500s, when an unknown printer took a galley of type and"
-  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing "
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image: "Snapshoot Portfolio.png",
-  technologies: ["Codekit","GitHub", "JavaScript", "Bootsrap", "Terminal", "Codepen"],
-  link: "https://onlyunknown.github.io/portfolio-mobile-first",
-  source: "https://onlyunknown.github.io/portfolio-mobile-first",
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
 
 {
-  name: "Multi-Post Stories Gain+Glory",
-  description: "Lorem Ipsum is simply dummy text of the printing"
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + "text ever since the 1500s, when an unknown printer took a galley of type and"
-  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing "
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image: "Snapshoot Portfolio.png",
-  technologies: ["Codekit","GitHub", "JavaScript", "Bootsrap", "Terminal", "Codepen"],
-  link: "https://onlyunknown.github.io/portfolio-mobile-first",
-  source: "https://onlyunknown.github.io/portfolio-mobile-first",
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
 
 {
-  name: "Multi-Post Stories Gain+Glory",
-  description: "Lorem Ipsum is simply dummy text of the printing"
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + "text ever since the 1500s, when an unknown printer took a galley of type and"
-  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing "
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image: "Snapshoot Portfolio.png",
-  technologies: ["Codekit","GitHub", "JavaScript", "Bootsrap", "Terminal", "Codepen"],
-  link: "https://onlyunknown.github.io/portfolio-mobile-first",
-  source: "https://onlyunknown.github.io/portfolio-mobile-first",
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
 
 {
-  name: "Multi-Post Stories Gain+Glory",
-  description: "Lorem Ipsum is simply dummy text of the printing"
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + "text ever since the 1500s, when an unknown printer took a galley of type and"
-  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing "
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image: "Snapshoot Portfolio.png",
-  technologies: ["Codekit","GitHub", "JavaScript", "Bootsrap", "Terminal", "Codepen"],
-  link: "https://onlyunknown.github.io/portfolio-mobile-first",
-  source: "https://onlyunknown.github.io/portfolio-mobile-first",
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
 
 {
-  name: "Multi-Post Stories Gain+Glory",
-  description: "Lorem Ipsum is simply dummy text of the printing"
+  name: 'Multi-Post Stories Gain+Glory',
+  description: 'Lorem Ipsum is simply dummy text of the printing'
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + "text ever since the 1500s, when an unknown printer took a galley of type and"
-  + "scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing "
+  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
+  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
   + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + "the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-  image: "Snapshoot Portfolio.png",
-  technologies: ["Codekit","GitHub", "JavaScript", "Bootsrap", "Terminal", "Codepen"],
-  link: "https://onlyunknown.github.io/portfolio-mobile-first",
-  source: "https://onlyunknown.github.io/portfolio-mobile-first",
+  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  image: 'Snapshoot Portfolio.png',
+  technologies: ['Codekit', 'GitHub', 'JavaScript', 'Bootsrap', 'Terminal', 'Codepen'],
+  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
 
-]
+];
+
+projects.forEach((item, index) => {
+  console.log(item, index);
+});
