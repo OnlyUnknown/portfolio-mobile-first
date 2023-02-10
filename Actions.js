@@ -251,3 +251,17 @@ function s1() {
   seeproject.innerHTML = '';
 }
 document.addEventListener('DOMContentLoaded', s1);
+
+
+
+// const form = document.getElementById('contact');
+// const email = form.element['inp-email']
+// let = emailAddress = email.value;
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+// })
+// form.submit();
+
+const email = document.querySelector(".inp-email")
+
+const form = document.querySelector(".form")

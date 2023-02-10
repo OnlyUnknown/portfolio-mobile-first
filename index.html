@@ -223,15 +223,15 @@
         in hearing about new projects, so if you'd 
         like to chat please get in touch.
     </p>
-    <form action="https://formspree.io/f/mnqynkkd" method="post" class="form">
+    <form action="https://formspree.io/f/mnqynkkd" method="post" class="form" id="contact">
         <label for="Full name"></label>
         <div class="div-name">
-        <input class="inp-name" id="Full-name" placeholder="Full Name" type="text" maxlength="30" required></div>
+        <input class="inp-name" id="Full-name" name="Fullname" placeholder="Full Name" type="text" maxlength="30" required></div>
         <label for="Email address"></label>
-        <input class="inp-email" placeholder="Email address" type="email" required>
+        <input class="inp-email" placeholder="Email address" name="Email" type="email" required>
         <label for="Enter text here"></label>
-        <textarea class="inp-text" placeholder="Typing something" maxlength="500" required></textarea>
-        <button class="btn-sub trans-btn" type="submit">Get in touch</button>
+        <textarea class="inp-text" placeholder="Typing something" name="text" maxlength="500" required></textarea>
+        <button class="btn-sub trans-btn" type="submit">Get in touch</button> <div class="error"></div>
     </form>
     
    
