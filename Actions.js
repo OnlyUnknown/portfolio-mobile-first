@@ -271,3 +271,5 @@ function validateForm() {
   }
   return true;
 }
+
+validateForm();
