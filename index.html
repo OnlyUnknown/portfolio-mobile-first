@@ -191,19 +191,19 @@
                 </ul>
     </div>
 </section>
-<section class="form-flex">
+<!-- <section class="form-flex">
 <p class="text-contact">I'm always interested 
     in hearing about new projects, so if you'd 
     like to chat please get in touch.
 </p>
-<form action="https://formspree.io/f/mnqynkkd" method="post" class="form">
+<form name="myForm" onsubmit="return validateForm()" action="https://formspree.io/f/mnqynkkd" method="post" class="form">
     <label for="Full name"></label>
     <input class="inp-name" id="Full name" placeholder="Full name" type="text" maxlength="30" required>
     <label for="Email address"></label>
-    <input class="inp-email" placeholder="Email address" type="email" required>
+    <input class="inp-email" placeholder="Email address" type="email" name="Email" required>
     <label for="Enter text here"></label>
     <textarea class="inp-text" placeholder="Enter text here" maxlength="500" required></textarea>
-    <button class="btn-sub" type="submit">Get in touch</button>
+    <button class="btn-sub"  type="submit">Get in touch</button>
 </form>
 
 <div class="social-media2">
@@ -216,14 +216,14 @@
     </ul>
     <p>myemailhere@email.com</p>
 </div>
-</section >
+</section > -->
 <section id="Contact" class="form-background">
     <div class="form-flex-d">
     <p class="text-contact">I'm always interested 
         in hearing about new projects, so if you'd 
         like to chat please get in touch.
     </p>
-    <form name="myForm" action="https://formspree.io/f/mnqynkkd" method="post" class="form" id="contact">
+    <form name="myForm" onsubmit="return validateForm()" action="https://formspree.io/f/mnqynkkd" method="post" class="form" id="contact" >
         <label for="Full name"></label>
         <div class="div-name">
         <input class="inp-name" id="Full-name" name="Fullname" placeholder="Full Name" type="text" maxlength="30" required></div>
@@ -231,7 +231,7 @@
         <input class="inp-email" placeholder="Email address" name="Email" type="email" >
         <label for="Enter text here"></label>
         <textarea class="inp-text" placeholder="Typing something" name="text" maxlength="500" required></textarea>
-        <button class="btn-sub trans-btn" type="submit">Get in touch</button> <div class="error"></div>
+        <button class="btn-sub trans-btn"  type="submit">Get in touch</button> <div class="error"></div>
     </form>
     
    

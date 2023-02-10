@@ -262,13 +262,18 @@ document.addEventListener('DOMContentLoaded', s1);
 // })
 // form.submit();
 
+let errorElement = document.querySelector(".error");
 
+let emailValid = document.querySelector(".inp-email");
 
+let form = document.querySelector("#contact");
 
 function validateForm() {
-  let x = document.forms["myForm"]["Email"].value;
-  if (x == "") {
-    alert("Name must be filled out");
+
+  
+  if (emailValid.value.toLowerCase() !== emailValid.value) {
+    errorElement.innerHTML = "The Email needs to be in lower case";
     return false;
-  }
+  } 
+
 }

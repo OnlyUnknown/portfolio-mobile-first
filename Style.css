@@ -608,7 +608,34 @@ textarea::placeholder {
 .btn-pop-d {
   display: none;
 }
+.form-flex-d{
+  background-image: url(Frame.png);
+  background-position: bottom 10% right 0%;
+  background-repeat: no-repeat;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 680px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+hr{
+  display: none;
+}
+
+
+.error{
+  margin-top: 10px;
+  color: red;
+  
+  font-size: 30px;
+}
+.social-media2{
+
+
+}
 @media only screen and (min-width: 768px) {
   .flex-cont {
     display: flex;
@@ -1034,5 +1061,12 @@ textarea::placeholder {
     top: 4px;
     border-radius: 4px;
     padding: 12px 16px 12px 16px;
+  }
+
+  .error{
+    margin-top: 10px;
+    color: red;
+    border: #091e42 1px solid;
+    font-size: 30px;
   }
 }
