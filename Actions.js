@@ -252,8 +252,6 @@ function s1() {
 }
 document.addEventListener('DOMContentLoaded', s1);
 
-
-
 // const form = document.getElementById('contact');
 // const email = form.element['inp-email']
 // let = emailAddress = email.value;
@@ -262,18 +260,14 @@ document.addEventListener('DOMContentLoaded', s1);
 // })
 // form.submit();
 
-let errorElement = document.querySelector(".error");
+const errorElement = document.querySelector('.error');
 
-let emailValid = document.querySelector(".inp-email");
-
-let form = document.querySelector("#contact");
+const emailValid = document.querySelector('.inp-email');
 
 function validateForm() {
-
-  
   if (emailValid.value.toLowerCase() !== emailValid.value) {
-    errorElement.innerHTML = "The Email needs to be in lower case";
+    errorElement.innerHTML = 'The Email needs to be in lower case';
     return false;
-  } 
-
+  }
+  return true;
 }
