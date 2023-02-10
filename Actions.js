@@ -262,6 +262,13 @@ document.addEventListener('DOMContentLoaded', s1);
 // })
 // form.submit();
 
-const email = document.querySelector(".inp-email")
 
-const form = document.querySelector(".form")
+
+
+function validateForm() {
+  let x = document.forms["myForm"]["Email"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
