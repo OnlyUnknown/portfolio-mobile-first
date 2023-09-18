@@ -753,10 +753,6 @@ hr {
   }
 
   .about-container {
-    display: none;
-  }
-
-  .about-container-d {
     background-image: url(./illustration-about\ me-1-desktop.svg), url(./illustration-about-me-2-desktop.svg);
     display: flex;
     flex-direction: column;
