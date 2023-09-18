@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body{
-  margin: 0px;
+body {
+  margin: 0;
 }
 
 header div {
@@ -768,7 +768,7 @@ hr {
     font-family: inter, sans-serif;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .about-cont-container {
@@ -784,7 +784,6 @@ hr {
   .cont-about {
     align-self: center;
     max-width: 800px;
-
     font-size: 20px;
     font-weight: 400px;
     line-height: 32px;
