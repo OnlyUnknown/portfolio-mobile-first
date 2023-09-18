@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+body {
+  margin: 0;
+}
+
 header div {
   min-width: 375px;
   height: 40px;
@@ -753,10 +757,6 @@ hr {
   }
 
   .about-container {
-    display: none;
-  }
-
-  .about-container-d {
     background-image: url(./illustration-about\ me-1-desktop.svg), url(./illustration-about-me-2-desktop.svg);
     display: flex;
     flex-direction: column;
@@ -768,7 +768,7 @@ hr {
     font-family: inter, sans-serif;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 192px;
+    margin-top: 0;
   }
 
   .about-cont-container {
@@ -779,6 +779,15 @@ hr {
     line-height: 32px;
     font-weight: 400;
     color: #42526e;
+  }
+
+  .cont-about {
+    align-self: center;
+    max-width: 800px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+    margin-top: -10px;
   }
 
   .about-cont-container h3 {
