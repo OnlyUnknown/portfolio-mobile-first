@@ -18,16 +18,13 @@ document.getElementById('btn').addEventListener('click', changeIcon());
 
 const projects = [{
   projectId: 'projectOne',
-  name: 'Multi-Post Stories Gain+Glory',
-  description: 'Lorem Ipsum is simply dummy text of the printing'
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  image: 'Snapshoot Portfolio.png',
+  name: 'Rescue the Earth page',
+  description: 'The home page displays all the main information about the'
+  + 'community as weel as speakers information The about page displays information'
+  + 'about previous community work It has a mobile version too for each page',
   mobileimage: 'Mobile-pop.png',
-  technologies: ['Ruby on Rails', 'Css', 'JavaScript', 'HTML'],
+  image: 'capstone module 1.png',
+  technologies: ['HTML', 'CSS', 'JavaScript'],
   link: 'https://onlyunknown.github.io/portfolio-mobile-first',
   source: 'https://onlyunknown.github.io/portfolio-mobile-first',
 },
@@ -184,6 +181,10 @@ function Load() {
   // Recent work project list
   projects.forEach((item, index) => {
     createpop(item, index);
+    const img = document.createElement("img")
+    
+    img.src = item.image
+    img.classList.add("modifiypic")
     const parents = document.querySelector('.grid-container');
 
     const workHolder = document.createElement('div');
@@ -218,6 +219,7 @@ function Load() {
     }
 
     workHolder.appendChild(titleholder);
+    workHolder.appendChild(img)
     titleholder.appendChild(title);
     titleholder.appendChild(techListH);
     titleholder.appendChild(projectBtnH);
