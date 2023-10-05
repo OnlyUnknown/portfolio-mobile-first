@@ -33,7 +33,7 @@ const projects = [{
   projectId: 'projectTwo',
   name: 'Weather App',
   description: 'Has been built with React and ReduxTK, and its information has been '
-  +'recieved by Live weather API and it can open the top 50 cities forcasts ',
+  + 'recieved by Live weather API and it can open the top 50 cities forcasts ',
   image: 'WeatherAppProject.png',
   mobileimage: 'WeatherAppProject.png',
   technologies: ['React.js', 'Redux-ToolKit', 'CSS', 'JavaScript', 'HTML'],
@@ -45,8 +45,8 @@ const projects = [{
   projectId: 'projectThree',
   name: 'Math Magician',
   description: 'A single page application that has been built with React and have added'
-  +' the API for it only by using React.js',
-   image: 'MathMagicianProject.png',
+  + ' the API for it only by using React.js',
+  image: 'MathMagicianProject.png',
   mobileimage: 'MathMagicianProject.png',
   technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
   link: 'https://math-magician-abdullah-render.onrender.com/',
@@ -56,9 +56,9 @@ const projects = [{
 {
   projectId: 'projectFour',
   name: 'Books Store',
-  description: "A snigle application app that used"
-  + " react and redux to add books by API and has the ability to delete from it",
-   image: 'BooksStoreProject.png',
+  description: 'A snigle application app that used'
+  + ' react and redux to add books by API and has the ability to delete from it',
+  image: 'BooksStoreProject.png',
   mobileimage: 'BooksStoreProject.png',
   technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
   link: '',
@@ -79,9 +79,9 @@ const projects = [{
 {
   projectId: 'projectSix',
   name: 'Awsome Books',
-  description: "A website that has a single page application and used the Local Storage "
-  + "and the technologies has been used is Javascript HTLM, and CSS",
-   image: 'AwsomeBooks.png',
+  description: 'A website that has a single page application and used the Local Storage '
+  + 'and the technologies has been used is Javascript HTLM, and CSS',
+  image: 'AwsomeBooks.png',
   mobileimage: 'AwsomeBooks.png',
   technologies: ['Css', 'JavaScript', 'HTML'],
   link: 'https://onlyunknown.github.io/Awesome-books-ES6/',
@@ -92,61 +92,7 @@ const projects = [{
 
 // eslint-disable-next-line no-unused-vars
 
-
-function Load() {
-  // Recent work project list
-  projects.forEach((item, index) => {
-    createpop(item, index);
-    const img = document.createElement("img")
-    
-    img.src = item.image
-    img.classList.add("modifiypic")
-    const parents = document.querySelector('.grid-container');
-
-    const workHolder = document.createElement('div');
-    workHolder.classList.add('work');
-
-    const titleholder = document.createElement('div');
-    titleholder.classList.add('item');
-
-    const title = document.createElement('h3');
-    title.classList.add('title-p');
-
-    title.innerHTML = item.name;
-
-    const techListH = document.createElement('ul');
-    techListH.classList.add('flex-prog');
-
-    const projectBtnH = document.createElement('div');
-    projectBtnH.classList.add('button-p');
-
-    const projectBtn = document.createElement('button');
-    projectBtn.classList.add('trans-btn');
-    projectBtn.innerHTML = 'See project';
-    projectBtn.setAttribute('onclick', 'popup()');
-    projectBtnH.appendChild(projectBtn);
-
-    for (let i = 0; i < item.technologies.length; i += 1) {
-      const techList = document.createElement('li');
-      techList.classList.add('prog-li');
-
-      techList.innerHTML = item.technologies[i];
-      techListH.appendChild(techList);
-    }
-
-    workHolder.appendChild(titleholder);
-    workHolder.appendChild(img)
-    titleholder.appendChild(title);
-    titleholder.appendChild(techListH);
-    titleholder.appendChild(projectBtnH);
-    parents.appendChild(workHolder);
-  });
-}
-
-
 // document.addEventListener('DOMContentLoaded', Load);
-
-const seeproject = document.querySelector('#pop-1');
 
 // const form = document.getElementById('contact');
 // const email = form.element['inp-email']
@@ -170,12 +116,10 @@ function validateForm() {
 
 validateForm();
 
-
 // Function to create and display a project popup
 function displayProjectPopup(project) {
-   
-  let html = document.createElement("section")
-  html.classList.add("popup-d")
+  const html = document.createElement('section');
+  html.classList.add('popup-d');
   html.innerHTML = `<div class="pop-mobile-container">
   <div class="img-pop-holder">
       <img src=${project.image}>
@@ -191,7 +135,7 @@ function displayProjectPopup(project) {
      </ul>
      <div class="msg-contaier-pop"><p class="pop-msg">${project.description}</p></div>
       <div class="button-p btn-pop pop-img-p"><a href=${project.link}><button class="trans-btn pop-btn" >See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source}><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div>
-  </div>`
+  </div>`;
   // Create a div for the popup overlay
 
   const popupOverlay = document.createElement('div');
@@ -199,32 +143,32 @@ function displayProjectPopup(project) {
   document.body.appendChild(popupOverlay);
 
   // Create a div for the popup content
-  let popupContent = document.createElement('div');
+  const popupContent = document.createElement('div');
   popupContent.classList.add('project-popup-content');
   popupOverlay.appendChild(html);
 
   // Add close button to the popup content
-  const closeButtons = document.querySelectorAll(".close-background")
-  const closeMobileButtons = document.querySelectorAll(".pop-mobile-close")
+  const closeButtons = document.querySelectorAll('.close-background');
+  const closeMobileButtons = document.querySelectorAll('.pop-mobile-close');
   closeMobileButtons.forEach((closeButton) => {
     closeButton.addEventListener('click', () => {
-        popupOverlay.style.display = 'none';
+      popupOverlay.style.display = 'none';
     });
-});
+  });
   closeButtons.forEach((closeButton) => {
     closeButton.addEventListener('click', () => {
-        popupOverlay.style.display = 'none';
+      popupOverlay.style.display = 'none';
     });
-});
-const techul = document.querySelectorAll(".pop-prog-flex")
-techul.forEach((tech) => {
-project.technologies.forEach((techn => {
-  let techli = document.createElement("li")
-  techli.classList.add("prog-li-pop")
-  techli.innerHTML = techn
-  tech.appendChild(techli)
-  }))
-})
+  });
+  const techul = document.querySelectorAll('.pop-prog-flex');
+  techul.forEach((tech) => {
+    project.technologies.forEach(((techn) => {
+      const techli = document.createElement('li');
+      techli.classList.add('prog-li-pop');
+      techli.innerHTML = techn;
+      tech.appendChild(techli);
+    }));
+  });
   // Create and populate the project details in the popup content
   const projectTitle = document.createElement('h2');
   projectTitle.textContent = project.name;
@@ -240,17 +184,15 @@ project.technologies.forEach((techn => {
 
 // Function to create project items and attach click event listeners
 function createProjectItems() {
-  const projectList = document.getElementById('projectList');
-
   projects.forEach((project) => {
-      // Create a project item
-      
-      const projectItem = document.createElement('div');
-      projectItem.classList.add('project-item');
-      const img = document.createElement("img")
-    
-    img.src = project.image
-    img.classList.add("modifiypic")
+    // Create a project item
+
+    const projectItem = document.createElement('div');
+    projectItem.classList.add('project-item');
+    const img = document.createElement('img');
+
+    img.src = project.image;
+    img.classList.add('modifiypic');
     const parents = document.querySelector('.grid-container');
 
     const workHolder = document.createElement('div');
@@ -273,7 +215,7 @@ function createProjectItems() {
     const projectBtn = document.createElement('button');
     projectBtn.classList.add('trans-btn');
     projectBtn.innerHTML = 'See project';
-    
+
     projectBtnH.appendChild(projectBtn);
 
     for (let i = 0; i < project.technologies.length; i += 1) {
@@ -285,25 +227,25 @@ function createProjectItems() {
     }
 
     workHolder.appendChild(titleholder);
-    workHolder.appendChild(img)
+    workHolder.appendChild(img);
     titleholder.appendChild(title);
     titleholder.appendChild(techListH);
     titleholder.appendChild(projectBtnH);
     parents.appendChild(workHolder);
-      projectItem.innerHTML = `
+    projectItem.innerHTML = `
           <h3>${project.name}</h3>
           <button class="view-button">View Details</button>
       `;
-    
-      // Add click event listener to open the popup
-      const viewButton = projectItem.querySelector('.view-button');
-      viewButton.addEventListener('click', () => {
-          displayProjectPopup(project);
-      });
-      const viewButton2 = workHolder.querySelector('.trans-btn');
-      viewButton2.addEventListener('click', () => {
-          displayProjectPopup(project);
-      });
+
+    // Add click event listener to open the popup
+    const viewButton = projectItem.querySelector('.view-button');
+    viewButton.addEventListener('click', () => {
+      displayProjectPopup(project);
+    });
+    const viewButton2 = workHolder.querySelector('.trans-btn');
+    viewButton2.addEventListener('click', () => {
+      displayProjectPopup(project);
+    });
   });
 }
 

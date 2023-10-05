@@ -555,7 +555,7 @@ textarea::placeholder {
   position: relative;
 }
 
-.img-pop-holder img{
+.img-pop-holder img {
   width: 320px;
 }
 
@@ -924,17 +924,17 @@ hr {
     right: 0;
     z-index: 1000;
     overflow: auto;
-   
     backdrop-filter: blur(5px);
   }
 
   .pop-img {
     display: block;
   }
-  .pop-icon{
+
+  .pop-icon {
     position: relative;
-    
   }
+
   #pop-close {
     display: block;
     margin-left: 8px;
@@ -1080,14 +1080,13 @@ hr {
   }
 }
 
-
-.modifiypic{
+.modifiypic {
   width: 348px;
   height: 260px;
 }
 
- /* Styles for the project popups */
- .project-popup {
+/* Styles for the project popups */
+.project-popup {
   display: none;
   position: fixed;
   top: 0;
