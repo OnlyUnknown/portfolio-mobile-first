@@ -1,9 +1,9 @@
 function myFunction() {
   const x = document.querySelector('#nav-links');
-  if (x.style.display === 'block') {
-    x.style.display = 'none';
-  } else {
+  if (x.style.display === 'none') {
     x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
   }
 }
 
@@ -31,121 +31,67 @@ const projects = [{
 
 {
   projectId: 'projectTwo',
-  name: 'Multi-Post Stories Gain+Glory',
-  description: 'Lorem Ipsum is simply dummy text of the printing'
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  image: 'Snapshoot Portfolio.png',
-  mobileimage: 'Mobile-pop.png',
-  technologies: ['Ruby on Rails', 'Css', 'JavaScript', 'HTML'],
-  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
-  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  name: 'Weather App',
+  description: 'Has been built with React and ReduxTK, and its information has been '
+  +'recieved by Live weather API and it can open the top 50 cities forcasts ',
+  image: 'WeatherAppProject.png',
+  mobileimage: 'WeatherAppProject.png',
+  technologies: ['React.js', 'Redux-ToolKit', 'CSS', 'JavaScript', 'HTML'],
+  link: 'https://weather-website-z9by.onrender.com/',
+  source: 'https://github.com/OnlyUnknown/weather-react-capstone',
 },
 
 {
   projectId: 'projectThree',
-  name: 'Multi-Post Stories Gain+Glory',
-  description: 'Lorem Ipsum is simply dummy text of the printing'
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  image: 'Snapshoot Portfolio.png',
-  mobileimage: 'Mobile-pop.png',
-  technologies: ['Ruby on Rails', 'Css', 'JavaScript', 'HTML'],
-  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
-  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  name: 'Math Magician',
+  description: 'A single page application that has been built with React and have added'
+  +' the API for it only by using React.js',
+   image: 'MathMagicianProject.png',
+  mobileimage: 'MathMagicianProject.png',
+  technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
+  link: 'https://math-magician-abdullah-render.onrender.com/',
+  source: 'https://github.com/OnlyUnknown/Math-magicians',
 },
 
 {
   projectId: 'projectFour',
-  name: 'Multi-Post Stories Gain+Glory',
-  description: 'Lorem Ipsum is simply dummy text of the printing'
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  image: 'Snapshoot Portfolio.png',
-  mobileimage: 'Mobile-pop.png',
-  technologies: ['Ruby on Rails', 'Css', 'JavaScript', 'HTML'],
-  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
-  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  name: 'Books Store',
+  description: "A snigle application app that used"
+  + " react and redux to add books by API and has the ability to delete from it",
+   image: 'BooksStoreProject.png',
+  mobileimage: 'BooksStoreProject.png',
+  technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
+  link: '',
+  source: 'https://github.com/OnlyUnknown/book-store',
 },
 
 {
   projectId: 'projectFive',
-  name: 'Multi-Post Stories Gain+Glory',
-  description: 'Lorem Ipsum is simply dummy text of the printing'
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  image: 'Snapshoot Portfolio.png',
-  mobileimage: 'Mobile-pop.png',
-  technologies: ['Ruby on Rails', 'Css', 'JavaScript', 'HTML'],
-  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
-  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  name: 'Leaderboard',
+  description: 'Have used the webpack for the leader board and api post to record your score',
+  image: 'LeaderBoardProject.png',
+  mobileimage: 'LeaderBoardProject.png',
+  technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
+  link: '',
+  source: 'https://github.com/OnlyUnknown/re-Leaderboard',
 },
 
 {
   projectId: 'projectSix',
-  name: 'Multi-Post Stories Gain+Glory',
-  description: 'Lorem Ipsum is simply dummy text of the printing'
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-  + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-  + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-  + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-  + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-  image: 'Snapshoot Portfolio.png',
-  mobileimage: 'Mobile-pop.png',
-  technologies: ['Ruby on Rails', 'Css', 'JavaScript', 'HTML'],
-  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
-  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  name: 'Awsome Books',
+  description: "A website that has a single page application and used the Local Storage "
+  + "and the technologies has been used is Javascript HTLM, and CSS",
+   image: 'AwsomeBooks.png',
+  mobileimage: 'AwsomeBooks.png',
+  technologies: ['Css', 'JavaScript', 'HTML'],
+  link: 'https://onlyunknown.github.io/Awesome-books-ES6/',
+  source: 'https://github.com/OnlyUnknown/Awesome-books-ES6',
 },
 
 ];
 
 // eslint-disable-next-line no-unused-vars
 
-function createpop(item) {
-  // write daynamic list
-  const html = `<section class="popup-d">
-  <div class="pop-mobile-container">
-  <div class="img-pop-holder">
-      <img src="Mobile-pop.png">
-      <div class="pop-mobile-close">X</div>
-      </div>
-
-<div class="close-background"><i id="pop-close" class="fa fa-close fa-2x"></i></div>
-<div class="pop-img" ><img src="Snapshoot Portfolio.png"></div>
-<div class="pop-title-container"><div class="pop-title"><h2>Multi-Post Stories Gain+Glory</h2> <div class="button-p-p btn-pop-d"><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></div></div>
-</div>
-   <ul class="pop-prog-flex">
-      <li class="prog-li-pop">Codekit</li>
-      <li class="prog-li-pop">GitHub</li>
-      <li class="prog-li-pop">Javascript</li>
-      <li class="prog-li-pop popg1">Bootstrap</li>
-      <li class="prog-li-pop popg1">Terminal</li>
-      <li class="prog-li-pop popg1">Codepen</li>
-     </ul>
-     <div class="msg-contaier-pop"><p class="pop-msg">Lorem Ipsum is simply dummy text of the printing'
-     + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-     + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-     + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-     + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-     + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-     image: 'Snapshoot Portfolio.png</p></div>
-      <div class="button-p btn-pop pop-img-p"><button class="trans-btn pop-btn" href"'https://onlyunknown.github.io/portfolio-mobile-first'">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn" href="'https://onlyunknown.github.io/portfolio-mobile-first'">See source<img class="pop-icon" src="Vectorgithub.png"></button></div>
-  </div></section>`;
-  const parent = document.querySelector('#pop-1');
-  parent.insertAdjacentHTML('beforeend', html);
-}
 
 function Load() {
   // Recent work project list
@@ -232,48 +178,20 @@ function displayProjectPopup(project) {
   html.classList.add("popup-d")
   html.innerHTML = `<div class="pop-mobile-container">
   <div class="img-pop-holder">
-      <img src="Mobile-pop.png">
+      <img src=${project.image}>
       <div class="pop-mobile-close">X</div>
       </div>
 
 <div class="close-background"><i id="pop-close" class="fa fa-close fa-2x"></i></div>
 <div class="pop-img" ><img class="pop-img" src=${project.image}></div>
-<div class="pop-title-container"><div class="pop-title"><h2>${project.name}</h2> <div class="button-p-p btn-pop-d"><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></div></div>
+<div class="pop-title-container"><div class="pop-title"><h2>${project.name}</h2> <div class="button-p-p btn-pop-d"><a href=${project.link}><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source}><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div></div>
 </div>
    <ul class="pop-prog-flex">
       
      </ul>
      <div class="msg-contaier-pop"><p class="pop-msg">${project.description}</p></div>
-      <div class="button-p btn-pop pop-img-p"><button class="trans-btn pop-btn" href"'https://onlyunknown.github.io/portfolio-mobile-first'">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn" href="'https://onlyunknown.github.io/portfolio-mobile-first'">See source<img class="pop-icon" src="Vectorgithub.png"></button></div>
+      <div class="button-p btn-pop pop-img-p"><a href=${project.link}><button class="trans-btn pop-btn" >See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source}><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div>
   </div>`
-//   const html = `<section class="popup-d">
-//   <div class="pop-mobile-container">
-//   <div class="img-pop-holder">
-//       <img src="Mobile-pop.png">
-//       <div class="pop-mobile-close">X</div>
-//       </div>
-
-// <div class="close-background"><i id="pop-close" class="fa fa-close fa-2x"></i></div>
-// <div class="pop-img" ><img src="Snapshoot Portfolio.png"></div>
-// <div class="pop-title-container"><div class="pop-title"><h2>Multi-Post Stories Gain+Glory</h2> <div class="button-p-p btn-pop-d"><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></div></div>
-// </div>
-//    <ul class="pop-prog-flex">
-//       <li class="prog-li-pop">Codekit</li>
-//       <li class="prog-li-pop">GitHub</li>
-//       <li class="prog-li-pop">Javascript</li>
-//       <li class="prog-li-pop popg1">Bootstrap</li>
-//       <li class="prog-li-pop popg1">Terminal</li>
-//       <li class="prog-li-pop popg1">Codepen</li>
-//      </ul>
-//      <div class="msg-contaier-pop"><p class="pop-msg">Lorem Ipsum is simply dummy text of the printing'
-//      + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
-//      + 'text ever since the 1500s, when an unknown printer took a galley of type and'
-//      + 'scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing '
-//      + "and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since "
-//      + 'the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-//      image: 'Snapshoot Portfolio.png</p></div>
-//       <div class="button-p btn-pop pop-img-p"><button class="trans-btn pop-btn" href"'https://onlyunknown.github.io/portfolio-mobile-first'">See live<img class="pop-icon" src="Iconseelive.png"></button><button class="trans-btn pop-btn" href="'https://onlyunknown.github.io/portfolio-mobile-first'">See source<img class="pop-icon" src="Vectorgithub.png"></button></div>
-//   </div></section>`;
   // Create a div for the popup overlay
 
   const popupOverlay = document.createElement('div');
@@ -287,7 +205,12 @@ function displayProjectPopup(project) {
 
   // Add close button to the popup content
   const closeButtons = document.querySelectorAll(".close-background")
-  
+  const closeMobileButtons = document.querySelectorAll(".pop-mobile-close")
+  closeMobileButtons.forEach((closeButton) => {
+    closeButton.addEventListener('click', () => {
+        popupOverlay.style.display = 'none';
+    });
+});
   closeButtons.forEach((closeButton) => {
     closeButton.addEventListener('click', () => {
         popupOverlay.style.display = 'none';
@@ -300,8 +223,6 @@ project.technologies.forEach((techn => {
   techli.classList.add("prog-li-pop")
   techli.innerHTML = techn
   tech.appendChild(techli)
-  
-    
   }))
 })
   // Create and populate the project details in the popup content
