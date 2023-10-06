@@ -71,7 +71,7 @@ const projects = [{
   description: 'Have used the webpack for the leaderboard'
   + ' and API post to record your score.',
   image: 'LeaderBoardProject.png',
-  mobileimage: 'LeaderBoardProject.png',
+  mobileimage: 'LeaderboardProject.png',
   technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
   link: '',
   source: 'https://github.com/OnlyUnknown/re-Leaderboard',
