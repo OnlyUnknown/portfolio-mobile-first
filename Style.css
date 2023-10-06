@@ -657,12 +657,12 @@ hr {
   .navbar {
     display: none;
   }
-  .mobile-cont{
+
+  .mobile-cont {
     display: none;
-    
   }
+
   .nav-desk {
-    
     height: 40px;
     background-color: white;
     display: flex;
@@ -1092,6 +1092,7 @@ hr {
 .modifiypic {
   width: 348px;
   height: 260px;
+  border: #0cb653 2px solid;
 }
 
 /* Styles for the project popups */
@@ -1124,6 +1125,6 @@ hr {
   cursor: pointer;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }

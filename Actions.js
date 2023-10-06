@@ -45,7 +45,7 @@ const projects = [{
   projectId: 'projectThree',
   name: 'Math Magician',
   description: 'A single application app that uses react '
-  +'and redux to add books by API can be deleted from it.',
+  + 'and redux to add books by API can be deleted from it.',
   image: 'MathMagicianProject.png',
   mobileimage: 'MathMagicianProject.png',
   technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
@@ -81,7 +81,7 @@ const projects = [{
   projectId: 'projectSix',
   name: 'Awsome Books',
   description: 'A website that has a single page application and uses '
-  +'the Local Storage and the technologies used is Javascript HTLM, and CSS.',
+  + 'the Local Storage and the technologies used is Javascript HTLM, and CSS.',
   image: 'AwsomeBooks.png',
   mobileimage: 'AwsomeBooks.png',
   technologies: ['Css', 'JavaScript', 'HTML'],
