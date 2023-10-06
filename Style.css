@@ -12,7 +12,7 @@ header div {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   font-size: large;
   margin: auto;
   min-width: 375px;
@@ -657,9 +657,18 @@ hr {
   .navbar {
     display: none;
   }
-
+  .mobile-cont{
+    display: none;
+    
+  }
   .nav-desk {
-    display: block;
+    
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
     text-align: center;
   }
 
@@ -1113,4 +1122,8 @@ hr {
 .close-button {
   color: red;
   cursor: pointer;
+}
+
+html{
+  scroll-behavior: smooth;
 }

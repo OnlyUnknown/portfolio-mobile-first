@@ -25,15 +25,15 @@ const projects = [{
   mobileimage: 'Mobile-pop.png',
   image: 'capstoneModule1.png',
   technologies: ['HTML', 'CSS', 'JavaScript'],
-  link: 'https://onlyunknown.github.io/portfolio-mobile-first',
-  source: 'https://onlyunknown.github.io/portfolio-mobile-first',
+  link: 'https://onlyunknown.github.io/Capstone-Mudole1/',
+  source: 'https://github.com/OnlyUnknown/Capstone-Mudole1',
 },
 
 {
   projectId: 'projectTwo',
   name: 'Weather App',
-  description: 'Has been built with React and ReduxTK, and its information has been '
-  + 'recieved by Live weather API and it can open the top 50 cities forcasts ',
+  description: 'A single-page application that has been built with '
+  + 'React and has added the API for it only by using React.js.',
   image: 'WeatherAppProject.png',
   mobileimage: 'WeatherAppProject.png',
   technologies: ['React.js', 'Redux-ToolKit', 'CSS', 'JavaScript', 'HTML'],
@@ -44,8 +44,8 @@ const projects = [{
 {
   projectId: 'projectThree',
   name: 'Math Magician',
-  description: 'A single page application that has been built with React and have added'
-  + ' the API for it only by using React.js',
+  description: 'A single application app that uses react '
+  +'and redux to add books by API can be deleted from it.',
   image: 'MathMagicianProject.png',
   mobileimage: 'MathMagicianProject.png',
   technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
@@ -68,7 +68,8 @@ const projects = [{
 {
   projectId: 'projectFive',
   name: 'Leaderboard',
-  description: 'Have used the webpack for the leader board and api post to record your score',
+  description: 'Have used the webpack for the leaderboard'
+  + ' and API post to record your score.',
   image: 'LeaderBoardProject.png',
   mobileimage: 'LeaderBoardProject.png',
   technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
@@ -79,8 +80,8 @@ const projects = [{
 {
   projectId: 'projectSix',
   name: 'Awsome Books',
-  description: 'A website that has a single page application and used the Local Storage '
-  + 'and the technologies has been used is Javascript HTLM, and CSS',
+  description: 'A website that has a single page application and uses '
+  +'the Local Storage and the technologies used is Javascript HTLM, and CSS.',
   image: 'AwsomeBooks.png',
   mobileimage: 'AwsomeBooks.png',
   technologies: ['Css', 'JavaScript', 'HTML'],
@@ -128,13 +129,13 @@ function displayProjectPopup(project) {
 
 <div class="close-background"><i id="pop-close" class="fa fa-close fa-2x"></i></div>
 <div class="pop-img" ><img class="pop-img" src=${project.image}></div>
-<div class="pop-title-container"><div class="pop-title"><h2>${project.name}</h2> <div class="button-p-p btn-pop-d"><a href=${project.link}><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source}><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div></div>
+<div class="pop-title-container"><div class="pop-title"><h2>${project.name}</h2> <div class="button-p-p btn-pop-d"><a href=${project.link} target=_blank><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source} target=_blank><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div></div>
 </div>
    <ul class="pop-prog-flex">
       
      </ul>
      <div class="msg-contaier-pop"><p class="pop-msg">${project.description}</p></div>
-      <div class="button-p btn-pop pop-img-p"><a href=${project.link}><button class="trans-btn pop-btn" >See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source}><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div>
+      <div class="button-p btn-pop pop-img-p"><a href=${project.link} target=_blank><button class="trans-btn pop-btn" >See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source} target=_blank><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div>
   </div>`;
   // Create a div for the popup overlay
 
