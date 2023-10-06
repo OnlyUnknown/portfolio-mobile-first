@@ -12,7 +12,7 @@ header div {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   font-size: large;
   margin: auto;
   min-width: 375px;
@@ -478,8 +478,8 @@ textarea::placeholder {
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 0;
   overflow: auto;
+  overflow-x: none;
   background-color: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(0);
@@ -556,6 +556,7 @@ textarea::placeholder {
 }
 
 .img-pop-holder img {
+  border: #0cb653 solid 2px;
   width: 320px;
 }
 
@@ -658,8 +659,17 @@ hr {
     display: none;
   }
 
+  .mobile-cont {
+    display: none;
+  }
+
   .nav-desk {
-    display: block;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
     text-align: center;
   }
 
@@ -928,6 +938,7 @@ hr {
   }
 
   .pop-img {
+    border: #0cb653 solid 2px;
     display: block;
   }
 
@@ -1083,6 +1094,7 @@ hr {
 .modifiypic {
   width: 348px;
   height: 260px;
+  border: #0cb653 2px solid;
 }
 
 /* Styles for the project popups */
@@ -1113,4 +1125,8 @@ hr {
 .close-button {
   color: red;
   cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
 }
