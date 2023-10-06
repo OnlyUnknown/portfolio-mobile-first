@@ -478,8 +478,8 @@ textarea::placeholder {
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 0;
   overflow: auto;
+  overflow-x: none;
   background-color: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(0);
@@ -556,6 +556,7 @@ textarea::placeholder {
 }
 
 .img-pop-holder img {
+  border: #0cb653 solid 2px;
   width: 320px;
 }
 
@@ -937,6 +938,7 @@ hr {
   }
 
   .pop-img {
+    border: #0cb653 solid 2px;
     display: block;
   }
 
