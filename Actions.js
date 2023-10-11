@@ -23,8 +23,8 @@ const projects = [{
   description: 'The home page displays all the main information about the'
   + ' community as weel as speakers information The about page displays information'
   + ' about previous community work it has a mobile version too for each page',
-  mobileimage: 'Mobile-pop.png',
-  image: 'capstoneModule1.png',
+  mobileimage: './pics/capstoneModule1.png',
+  image: './pics/capstoneModule1.png',
   technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
   link: 'https://onlyunknown.github.io/Capstone-Mudole1/',
   source: 'https://github.com/OnlyUnknown/Capstone-Mudole1',
@@ -37,8 +37,8 @@ const projects = [{
   description: 'A single-page application that has been built with '
   + 'React and has added the API for it only by using React.js and Redux Tool Kit,'
   +' The preject is recieving data two APIs from the same api provide to show the top 50 cities daily forcast',
-  image: 'WeatherAppProject.png',
-  mobileimage: 'WeatherAppProject.png',
+  image: './pics/WeatherAppProject.png',
+  mobileimage: './pics/WeatherAppProject.png',
   technologies: ['React.js', 'Redux-ToolKit', 'Responsive', 'CSS', 'JavaScript'],
   link: 'https://weather-website-z9by.onrender.com/',
   source: 'https://github.com/OnlyUnknown/weather-react-capstone',
@@ -50,8 +50,8 @@ const projects = [{
   name: 'Math Magician',
   description: 'A single application app that uses react '
   + 'and redux to add books by API can be deleted from it.',
-  image: 'MathMagicianProject.png',
-  mobileimage: 'MathMagicianProject.png',
+  image: './pics/MathMagicianProject.png',
+  mobileimage: './pics/MathMagicianProject.png',
   technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
   link: 'https://math-magician-abdullah-render.onrender.com/',
   source: 'https://github.com/OnlyUnknown/Math-magicians',
@@ -63,8 +63,8 @@ const projects = [{
   name: 'Books Store',
   description: 'A snigle application app that used'
   + ' react and redux to add books by API and has the ability to delete from it',
-  image: 'BooksStoreProject.png',
-  mobileimage: 'BooksStoreProject.png',
+  image: './pics/BooksStoreProject.png',
+  mobileimage: './pics/BooksStoreProject.png',
   technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
   link: '',
   source: 'https://github.com/OnlyUnknown/book-store',
@@ -76,8 +76,8 @@ const projects = [{
   name: 'Leaderboard',
   description: 'Have used the webpack for the leaderboard'
   + ' and API post to record your score.',
-  image: 'Leaderboard.png',
-  mobileimage: 'Leaderboard.png',
+  image: './pics/Leaderboard.png',
+  mobileimage: './pics/Leaderboard.png',
   technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
   link: '',
   source: 'https://github.com/OnlyUnknown/re-Leaderboard',
@@ -89,8 +89,8 @@ const projects = [{
   name: 'Awsome Books',
   description: 'A website that has a single page application and uses '
   + 'the Local Storage and the technologies used is Javascript HTLM, and CSS.',
-  image: 'AwsomeBooks.png',
-  mobileimage: 'AwsomeBooks.png',
+  image: './pics/AwsomeBooks.png',
+  mobileimage: './pics/AwsomeBooks.png',
   technologies: ['Css', 'JavaScript', 'HTML'],
   link: 'https://onlyunknown.github.io/Awesome-books-ES6/',
   source: 'https://github.com/OnlyUnknown/Awesome-books-ES6',
@@ -136,13 +136,13 @@ function displayProjectPopup(project) {
 
 <div class="close-background"><i id="pop-close" class="fa fa-close fa-2x"></i></div>
 <div class="pop-img" ><img class="pop-img" src=${project.image}></div>
-<div class="pop-title-container"><div class="pop-title"><h2>${project.name}</h2> <div class="button-p-p btn-pop-d"><a href=${project.link} target=_blank><button class="trans-btn pop-btn">See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source} target=_blank><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div></div>
+<div class="pop-title-container"><div class="pop-title"><h2>${project.name}</h2> <div class="button-p-p btn-pop-d"><a href=${project.link} target=_blank><button class="trans-btn pop-btn">See live<img class="pop-icon" src="./pics/Iconseelive.png"></button></a><a href=${project.source} target=_blank><button class="trans-btn pop-btn">See source<img class="pop-icon" src="./pics/Vectorgithub.png"></button></a></div></div>
 </div>
    <ul class="pop-prog-flex">
       
      </ul>
      <div class="msg-contaier-pop"><p class="pop-msg">${project.description}</p></div>
-      <div class="button-p btn-pop pop-img-p"><a href=${project.link} target=_blank><button class="trans-btn pop-btn" >See live<img class="pop-icon" src="Iconseelive.png"></button></a><a href=${project.source} target=_blank><button class="trans-btn pop-btn">See source<img class="pop-icon" src="Vectorgithub.png"></button></a></div>
+      <div class="button-p btn-pop pop-img-p"><a href=${project.link} target=_blank><button class="trans-btn pop-btn" >See live<img class="pop-icon" src="./pics/Iconseelive.png"></button></a><a href=${project.source} target=_blank><button class="trans-btn pop-btn">See source<img class="pop-icon" src="./pics/Vectorgithub.png"></button></a></div>
   </div>`;
   // Create a div for the popup overlay
 
