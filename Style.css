@@ -193,29 +193,33 @@ li {
 
 .title-p {
   display: flex;
-  justify-self: center;
+  justify-content: center;
+  align-items: center;
   width: 282px;
+  height: 30px;
   padding-left: 40px;
   text-align: center;
 }
 
 .flex-prog {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 345px;
   gap: 8px;
   padding: 0;
-  height: 32px;
+  height: 30px;
   font-size: 12px;
   justify-content: space-around;
-  align-items: center;
 }
 
 .prog-li {
   background-color: #d0d9d4;
   border-radius: 4px;
+  height: 8px;
   font-style: normal;
   color: #3a4a42;
+  text-align: center;
 }
 
 .button-p {
@@ -671,6 +675,7 @@ hr {
     position: fixed;
     width: 100%;
     text-align: center;
+    z-index: 1000;
   }
 
   .nav-desk a {
@@ -1129,4 +1134,53 @@ hr {
 
 html {
   scroll-behavior: smooth;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

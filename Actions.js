@@ -18,31 +18,35 @@ document.getElementById('btn').addEventListener('click', changeIcon());
 
 const projects = [{
   projectId: 'projectOne',
+  aimation: 'fade-left',
   name: 'Rescue the Earth page',
   description: 'The home page displays all the main information about the'
   + ' community as weel as speakers information The about page displays information'
   + ' about previous community work it has a mobile version too for each page',
   mobileimage: 'Mobile-pop.png',
   image: 'capstoneModule1.png',
-  technologies: ['HTML', 'CSS', 'JavaScript'],
+  technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
   link: 'https://onlyunknown.github.io/Capstone-Mudole1/',
   source: 'https://github.com/OnlyUnknown/Capstone-Mudole1',
 },
 
 {
   projectId: 'projectTwo',
+  aimation: 'fade-bottom',
   name: 'Weather App',
   description: 'A single-page application that has been built with '
-  + 'React and has added the API for it only by using React.js.',
+  + 'React and has added the API for it only by using React.js and Redux Tool Kit,'
+  +' The preject is recieving data two APIs from the same api provide to show the top 50 cities daily forcast',
   image: 'WeatherAppProject.png',
   mobileimage: 'WeatherAppProject.png',
-  technologies: ['React.js', 'Redux-ToolKit', 'CSS', 'JavaScript', 'HTML'],
+  technologies: ['React.js', 'Redux-ToolKit', 'Responsive', 'CSS', 'JavaScript'],
   link: 'https://weather-website-z9by.onrender.com/',
   source: 'https://github.com/OnlyUnknown/weather-react-capstone',
 },
 
 {
   projectId: 'projectThree',
+  aimation: 'fade-right',
   name: 'Math Magician',
   description: 'A single application app that uses react '
   + 'and redux to add books by API can be deleted from it.',
@@ -55,6 +59,7 @@ const projects = [{
 
 {
   projectId: 'projectFour',
+  aimation: 'fade-left',
   name: 'Books Store',
   description: 'A snigle application app that used'
   + ' react and redux to add books by API and has the ability to delete from it',
@@ -67,11 +72,12 @@ const projects = [{
 
 {
   projectId: 'projectFive',
+  aimation: 'fade-bottom',
   name: 'Leaderboard',
   description: 'Have used the webpack for the leaderboard'
   + ' and API post to record your score.',
-  image: 'LeaderBoardProject.png',
-  mobileimage: 'LeaderboardProject.png',
+  image: 'Leaderboard.png',
+  mobileimage: 'Leaderboard.png',
   technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
   link: '',
   source: 'https://github.com/OnlyUnknown/re-Leaderboard',
@@ -79,6 +85,7 @@ const projects = [{
 
 {
   projectId: 'projectSix',
+  aimation: 'fade-right',
   name: 'Awsome Books',
   description: 'A website that has a single page application and uses '
   + 'the Local Storage and the technologies used is Javascript HTLM, and CSS.',
@@ -195,8 +202,11 @@ function createProjectItems() {
     img.src = project.image;
     img.classList.add('modifiypic');
     const parents = document.querySelector('.grid-container');
-
+    
     const workHolder = document.createElement('div');
+    workHolder.classList.add(project.aimation);
+    workHolder.classList.add('reveal');
+
     workHolder.classList.add('work');
 
     const titleholder = document.createElement('div');
@@ -252,3 +262,19 @@ function createProjectItems() {
 
 // Initialize the project items
 createProjectItems();
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } 
+  }
+}
+
+window.addEventListener("scroll", reveal);
