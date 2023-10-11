@@ -36,7 +36,7 @@ const projects = [{
   name: 'Weather App',
   description: 'A single-page application that has been built with '
   + 'React and has added the API for it only by using React.js and Redux Tool Kit,'
-  +' The preject is recieving data two APIs from the same api provide to show the top 50 cities daily forcast',
+  + ' The preject is recieving data two APIs from the same api provide to show the top 50 cities daily forcast',
   image: './pics/WeatherAppProject.png',
   mobileimage: './pics/WeatherAppProject.png',
   technologies: ['React.js', 'Redux-ToolKit', 'Responsive', 'CSS', 'JavaScript'],
@@ -202,7 +202,7 @@ function createProjectItems() {
     img.src = project.image;
     img.classList.add('modifiypic');
     const parents = document.querySelector('.grid-container');
-    
+
     const workHolder = document.createElement('div');
     workHolder.classList.add(project.aimation);
     workHolder.classList.add('reveal');
@@ -264,17 +264,17 @@ function createProjectItems() {
 createProjectItems();
 
 function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
+  const reveals = document.querySelectorAll('.reveal');
 
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
+  for (let i = 0; i < reveals.length; i += 1) {
+    const windowHeight = window.innerHeight;
+    const elementTop = reveals[i].getBoundingClientRect().top;
+    const elementVisible = 150;
 
     if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } 
+      reveals[i].classList.add('active');
+    }
   }
 }
 
-window.addEventListener("scroll", reveal);
+window.addEventListener('scroll', reveal);
