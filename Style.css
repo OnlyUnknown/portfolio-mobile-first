@@ -18,6 +18,7 @@ header div {
   min-width: 375px;
   overflow: hidden;
   background-color: #fff;
+  z-index: 1000;
 }
 
 .navbar a {
@@ -80,7 +81,7 @@ span {
 }
 
 .flex-cont {
-  background: url(./header-illsutration-mobile@2x.svg) 50% 0% no-repeat;
+  background: url(./pics/header-illsutration-mobile@2x.svg) 50% 0% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,29 +194,33 @@ li {
 
 .title-p {
   display: flex;
-  justify-self: center;
+  justify-content: center;
+  align-items: center;
   width: 282px;
+  height: 30px;
   padding-left: 40px;
   text-align: center;
 }
 
 .flex-prog {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 345px;
   gap: 8px;
   padding: 0;
-  height: 32px;
+  height: 30px;
   font-size: 12px;
   justify-content: space-around;
-  align-items: center;
 }
 
 .prog-li {
   background-color: #d0d9d4;
   border-radius: 4px;
+  height: 8px;
   font-style: normal;
   color: #3a4a42;
+  text-align: center;
 }
 
 .button-p {
@@ -243,7 +248,7 @@ li {
   justify-content: center;
   min-width: 330px;
   min-height: 333px;
-  background-image: url(illustration1.svg), url(illustration2.svg);
+  background-image: url(./pics/illustration1.svg), url(./pics/illustration2.svg);
   background-position: 100% 0%, 0% 100%;
   background-repeat: no-repeat;
   font-family: inter, sans-serif;
@@ -351,7 +356,7 @@ button:active:enabled {
 }
 
 .form-flex {
-  background-image: url(Frame.png);
+  background-image: url(./pics/Frame.png);
   background-position: bottom 10% right 0%;
   background-repeat: no-repeat;
   width: 375px;
@@ -561,7 +566,7 @@ textarea::placeholder {
 }
 
 .background-pop {
-  background-image: url(./about-me-back.jpeg);
+  background-image: url(./pics/about-me-back.jpeg);
   background-size: cover;
   color: #091e42;
   position: fixed;
@@ -615,7 +620,7 @@ textarea::placeholder {
 }
 
 .form-flex-d {
-  background-image: url(Frame.png);
+  background-image: url(./pics/Frame.png);
   background-position: bottom 10% right 0%;
   background-repeat: no-repeat;
   width: 375px;
@@ -643,7 +648,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     padding-bottom: 300px;
-    background: url(./Header-pic.png) no-repeat;
+    background: url(./pics/Header-pic.png) no-repeat;
     background-size: 1500.8px;
     align-items: center;
     font-family: inter, sans-serif;
@@ -671,6 +676,7 @@ hr {
     position: fixed;
     width: 100%;
     text-align: center;
+    z-index: 1000;
   }
 
   .nav-desk a {
@@ -767,7 +773,7 @@ hr {
   }
 
   .about-container {
-    background-image: url(./illustration-about\ me-1-desktop.svg), url(./illustration-about-me-2-desktop.svg);
+    background-image: url(./pics/illustration-about\ me-1-desktop.svg), url(./pics/illustration-about-me-2-desktop.svg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -815,7 +821,7 @@ hr {
   }
 
   .form-background {
-    background-image: url(./contact\ desktop\ pic\ 1.svg), url(./contact\ desktop\ pic\ 2.svg), url(./contact\ desktop\ pic\ 3.svg);
+    background-image: url(./pics/contact\ desktop\ pic\ 1.svg), url(./pics/contact\ desktop\ pic\ 2.svg), url(./pics/contact\ desktop\ pic\ 3.svg);
     background-position: right, left, bottom 50px left 280px;
     background-repeat: no-repeat;
     display: block;
@@ -1129,4 +1135,61 @@ hr {
 
 html {
   scroll-behavior: smooth;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
