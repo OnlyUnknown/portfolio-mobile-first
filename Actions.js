@@ -66,7 +66,7 @@ const projects = [{
   image: './pics/BooksStoreProject.png',
   mobileimage: './pics/BooksStoreProject.png',
   technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
-  link: '',
+  link: 'https://book-store-f2pi.onrender.com/',
   source: 'https://github.com/OnlyUnknown/book-store',
 },
 
@@ -79,7 +79,7 @@ const projects = [{
   image: './pics/leaderboard.png',
   mobileimage: './pics/leaderboard.png',
   technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
-  link: '',
+  link: 'https://leaderboard-cwrq.onrender.com/',
   source: 'https://github.com/OnlyUnknown/re-Leaderboard',
 },
 
