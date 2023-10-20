@@ -20,9 +20,7 @@ const projects = [{
   projectId: 'projectOne',
   aimation: 'fade-left',
   name: 'Rescue the Earth page',
-  description: 'The home page displays all the main information about the'
-  + ' community as weel as speakers information The about page displays information'
-  + ' about previous community work it has a mobile version too for each page',
+  description: `The home page displays all the main information about the community, as well as information about the speakers. The about page provides details about the community's previous work. Each page also has a mobile version.`,
   mobileimage: './pics/capstoneModule1.png',
   image: './pics/capstoneModule1.png',
   technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
@@ -34,9 +32,7 @@ const projects = [{
   projectId: 'projectTwo',
   aimation: 'fade-bottom',
   name: 'Weather App',
-  description: 'A single-page application that has been built with '
-  + 'React and has added the API for it only by using React.js and Redux Tool Kit,'
-  + ' The preject is recieving data two APIs from the same api provide to show the top 50 cities daily forcast',
+  description: `A single-page application has been built using React and incorporates the API exclusively through React.js and Redux Toolkit. The project retrieves data from two APIs provided by the same source to display daily forecasts for the top 50 cities.`,
   image: './pics/WeatherAppProject.png',
   mobileimage: './pics/WeatherAppProject.png',
   technologies: ['React.js', 'Redux-ToolKit', 'Responsive', 'CSS', 'JavaScript'],
@@ -48,8 +44,7 @@ const projects = [{
   projectId: 'projectThree',
   aimation: 'fade-right',
   name: 'Math Magician',
-  description: 'A single application app that uses react '
-  + 'and redux to add books by API can be deleted from it.',
+  description: `It's a single application that utilizes React and Redux to add books via an API, and also has the capability to remove books.`,
   image: './pics/MathMagicianProject.png',
   mobileimage: './pics/MathMagicianProject.png',
   technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
@@ -61,8 +56,7 @@ const projects = [{
   projectId: 'projectFour',
   aimation: 'fade-left',
   name: 'Books Store',
-  description: 'A snigle application app that used'
-  + ' react and redux to add books by API and has the ability to delete from it',
+  description: `It's a single application that uses React and Redux to add books via an API and also has the ability to delete them.`,
   image: './pics/BooksStoreProject.png',
   mobileimage: './pics/BooksStoreProject.png',
   technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
