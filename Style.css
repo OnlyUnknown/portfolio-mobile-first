@@ -442,9 +442,10 @@ input[type="email"]::placeholder {
   margin-top: 42px;
 }
 
-.myemail{
-text-align: center;
+.myemail {
+  text-align: center;
 }
+
 .social-media2 li {
   width: 20px;
   height: 16px;
@@ -723,11 +724,11 @@ hr {
   }
 
   .social-media-d {
-    
     display: block;
     animation: fadeIn 5s;
   }
-  .social-media-d ul{
+
+  .social-media-d ul {
     display: flex;
   }
 
