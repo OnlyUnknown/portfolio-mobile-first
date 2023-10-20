@@ -292,7 +292,6 @@ li {
   grid-template-rows: 352px;
   row-gap: 24px;
   border-radius: 8px;
-  justify-content: center;
   font-family: "inter", sans-serif;
 }
 
@@ -436,11 +435,16 @@ input[type="email"]::placeholder {
 }
 
 .social-media2 {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
   margin-top: 42px;
 }
 
+.myemail{
+text-align: center;
+}
 .social-media2 li {
   width: 20px;
   height: 16px;
