@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {
-  margin: 0;
-}
-
 header div {
   min-width: 375px;
   height: 40px;
@@ -15,6 +11,7 @@ header div {
   position: fixed;
   font-size: large;
   margin: auto;
+  width: 100%;
   min-width: 375px;
   overflow: hidden;
   background-color: #fff;
@@ -62,6 +59,7 @@ header div {
   position: absolute;
   top: 0;
   right: 0;
+  margin-right: 10px;
 }
 
 .nav-desk {
@@ -81,12 +79,13 @@ span {
 }
 
 .flex-cont {
-  background: url(./pics/header-illsutration-mobile@2x.svg) 50% 0% no-repeat;
+  background: url(./pics/header-illsutration-mobile@2x.svg) 100% 0% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: inter, sans-serif;
+  width: 100%;
   min-width: 375px;
 }
 
@@ -293,7 +292,6 @@ li {
   grid-template-rows: 352px;
   row-gap: 24px;
   border-radius: 8px;
-  justify-content: center;
   font-family: "inter", sans-serif;
 }
 
@@ -437,9 +435,15 @@ input[type="email"]::placeholder {
 }
 
 .social-media2 {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
   margin-top: 42px;
+}
+
+.myemail {
+  text-align: center;
 }
 
 .social-media2 li {
@@ -691,7 +695,7 @@ hr {
 
   .flex-cont p {
     font-size: 22px;
-    width: 900px;
+    width: 790px;
     text-align: center;
     line-height: 32px;
     height: 96px;
@@ -720,8 +724,12 @@ hr {
   }
 
   .social-media-d {
-    display: inline-block;
+    display: block;
     animation: fadeIn 5s;
+  }
+
+  .social-media-d ul {
+    display: flex;
   }
 
   .downbutton {
