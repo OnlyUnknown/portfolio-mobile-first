@@ -19,7 +19,7 @@ document.getElementById('btn').addEventListener('click', changeIcon());
 const projects = [
   {
     projectId: 'projectSix',
-    aimation: 'fade-bottom',
+    aimation: 'fade-left',
     name: 'Weather App',
     description: 'A single-page application has been built using React and incorporates the API exclusively through React.js and Redux Toolkit. The project retrieves data from two APIs provided by the same source to display daily forecasts for the top 50 cities.',
     image: './pics/WeatherAppProject.png',
@@ -31,7 +31,7 @@ const projects = [
 
   {
     projectId: 'projectFive',
-    aimation: 'fade-right',
+    aimation: 'fade-bottom',
     name: 'Math Magician',
     description: 'It\'s a single application that utilizes React and Redux to add books via an API, and also has the capability to remove books.',
     image: './pics/MathMagicianProject.png',
@@ -43,7 +43,7 @@ const projects = [
 
   {
     projectId: 'projectFour',
-    aimation: 'fade-left',
+    aimation: 'fade-right',
     name: 'Books Store',
     description: 'It\'s a single application that uses React and Redux to add books via an API and also has the ability to delete them.',
     image: './pics/BooksStoreProject.png',
@@ -55,7 +55,7 @@ const projects = [
 
   {
     projectId: 'projectThree',
-    aimation: 'fade-bottom',
+    aimation: 'fade-left',
     name: 'Leaderboard',
     description: 'I have utilized Webpack for the leaderboard and API for posting and recording your score.',
     image: './pics/leaderboard.png',
@@ -67,7 +67,7 @@ const projects = [
 
   {
     projectId: 'projectTwo',
-    aimation: 'fade-right',
+    aimation: 'fade-bottom',
     name: 'Awsome Books',
     description: 'It\'s a website featuring a single-page application that utilizes Local Storage. The technologies used include JavaScript, HTML, and CSS.',
     image: './pics/AwsomeBooks.png',
@@ -78,7 +78,7 @@ const projects = [
   },
   {
     projectId: 'projectOne',
-    aimation: 'fade-left',
+    aimation: 'fade-right',
     name: 'Rescue the Earth page',
     description: 'The home page displays all the main information about the community, as well as information about the speakers. The about page provides details about the community\'s previous work. Each page also has a mobile version.',
     mobileimage: './pics/capstoneModule1.png',
