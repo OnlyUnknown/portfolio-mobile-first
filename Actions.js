@@ -16,23 +16,12 @@ function changeIcon() {
 document.querySelector('#nav-links').addEventListener('click', myFunction());
 document.getElementById('btn').addEventListener('click', changeIcon());
 
-const projects = [{
-  projectId: 'projectOne',
-  aimation: 'fade-left',
-  name: 'Rescue the Earth page',
-  description: 'The home page displays all the main information about the community, as well as information about the speakers. The about page provides details about the community\'s previous work. Each page also has a mobile version.',
-  mobileimage: './pics/capstoneModule1.png',
-  image: './pics/capstoneModule1.png',
-  technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
-  link: 'https://onlyunknown.github.io/Capstone-Mudole1/',
-  source: 'https://github.com/OnlyUnknown/Capstone-Mudole1',
-},
-
+const projects = [
 {
-  projectId: 'projectTwo',
+  projectId: 'projectSix',
   aimation: 'fade-bottom',
   name: 'Weather App',
-  description: 'A single-page application has been built using React and incorporates the API exclusively through React.js and Redux Toolkit. The project retrieves data from two APIs provided by the same source to display daily forecasts for the top 50 cities.',
+  description: `A single-page application has been built using React and incorporates the API exclusively through React.js and Redux Toolkit. The project retrieves data from two APIs provided by the same source to display daily forecasts for the top 50 cities.`,
   image: './pics/WeatherAppProject.png',
   mobileimage: './pics/WeatherAppProject.png',
   technologies: ['React.js', 'Redux-ToolKit', 'Responsive', 'CSS', 'JavaScript'],
@@ -41,10 +30,10 @@ const projects = [{
 },
 
 {
-  projectId: 'projectThree',
+  projectId: 'projectFive',
   aimation: 'fade-right',
   name: 'Math Magician',
-  description: 'It\'s a single application that utilizes React and Redux to add books via an API, and also has the capability to remove books.',
+  description: `It's a single application that utilizes React and Redux to add books via an API, and also has the capability to remove books.`,
   image: './pics/MathMagicianProject.png',
   mobileimage: './pics/MathMagicianProject.png',
   technologies: ['React.js', 'JavaScript', 'API', 'HTML'],
@@ -56,7 +45,7 @@ const projects = [{
   projectId: 'projectFour',
   aimation: 'fade-left',
   name: 'Books Store',
-  description: 'It\'s a single application that uses React and Redux to add books via an API and also has the ability to delete them.',
+  description: `It's a single application that uses React and Redux to add books via an API and also has the ability to delete them.`,
   image: './pics/BooksStoreProject.png',
   mobileimage: './pics/BooksStoreProject.png',
   technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
@@ -65,11 +54,10 @@ const projects = [{
 },
 
 {
-  projectId: 'projectFive',
+  projectId: 'projectThree',
   aimation: 'fade-bottom',
   name: 'Leaderboard',
-  description: 'Have used the webpack for the leaderboard'
-  + ' and API post to record your score.',
+  description: `I have utilized Webpack for the leaderboard and API for posting and recording your score.`,
   image: './pics/leaderboard.png',
   mobileimage: './pics/leaderboard.png',
   technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
@@ -78,18 +66,27 @@ const projects = [{
 },
 
 {
-  projectId: 'projectSix',
+  projectId: 'projectTwo',
   aimation: 'fade-right',
   name: 'Awsome Books',
-  description: 'A website that has a single page application and uses '
-  + 'the Local Storage and the technologies used is Javascript HTLM, and CSS.',
+  description: `It's a website featuring a single-page application that utilizes Local Storage. The technologies used include JavaScript, HTML, and CSS.`,
   image: './pics/AwsomeBooks.png',
   mobileimage: './pics/AwsomeBooks.png',
   technologies: ['Css', 'JavaScript', 'HTML'],
   link: 'https://onlyunknown.github.io/Awesome-books-ES6/',
   source: 'https://github.com/OnlyUnknown/Awesome-books-ES6',
 },
-
+{
+  projectId: 'projectOne',
+  aimation: 'fade-left',
+  name: 'Rescue the Earth page',
+  description: `The home page displays all the main information about the community, as well as information about the speakers. The about page provides details about the community's previous work. Each page also has a mobile version.`,
+  mobileimage: './pics/capstoneModule1.png',
+  image: './pics/capstoneModule1.png',
+  technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
+  link: 'https://onlyunknown.github.io/Capstone-Mudole1/',
+  source: 'https://github.com/OnlyUnknown/Capstone-Mudole1',
+}
 ];
 
 // eslint-disable-next-line no-unused-vars
