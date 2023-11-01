@@ -819,6 +819,14 @@ hr {
     font-weight: 700;
   }
 
+  .grid-about {
+    display: flex;
+    justify-content: center;
+    row-gap: 24px;
+    border-radius: 8px;
+    font-family: "inter", sans-serif;
+  }
+
   .languages-cont {
     display: flex;
     justify-content: center;
