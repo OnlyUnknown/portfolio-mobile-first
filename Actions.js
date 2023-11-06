@@ -20,6 +20,17 @@ const projects = [
   {
     projectId: 'projectSix',
     aimation: 'fade-left',
+    name: 'Budget App',
+    description: 'A full stack app that you can make your account and save your budget in this app, you can save the budget by categories.',
+    image: './pics/Spendy_app.png',
+    mobileimage: './pics/Spendy_app.png',
+    technologies: ['Ruby', 'Ruby on Rails', 'Responsive', 'CSS', 'JavaScript', 'Full-stack', 'Devise'],
+    link: 'https://spendy-app.onrender.com/',
+    source: 'https://github.com/OnlyUnknown/Budget-ROR-Capstone',
+  },
+  {
+    projectId: 'projectFive',
+    aimation: 'fade-bottom',
     name: 'Weather App',
     description: 'A single-page application has been built using React and incorporates the API exclusively through React.js and Redux Toolkit. The project retrieves data from two APIs provided by the same source to display daily forecasts for the top 50 cities.',
     image: './pics/WeatherAppProject.png',
@@ -30,8 +41,8 @@ const projects = [
   },
 
   {
-    projectId: 'projectFive',
-    aimation: 'fade-bottom',
+    projectId: 'projectFour',
+    aimation: 'fade-right',
     name: 'Math Magician',
     description: 'It\'s a single application that utilizes React and Redux to add books via an API, and also has the capability to remove books.',
     image: './pics/MathMagicianProject.png',
@@ -42,8 +53,8 @@ const projects = [
   },
 
   {
-    projectId: 'projectFour',
-    aimation: 'fade-right',
+    projectId: 'projectThree',
+    aimation: 'fade-left',
     name: 'Books Store',
     description: 'It\'s a single application that uses React and Redux to add books via an API and also has the ability to delete them.',
     image: './pics/BooksStoreProject.png',
@@ -51,18 +62,6 @@ const projects = [
     technologies: ['React', 'Redux', 'API', 'Css', 'JavaScript', 'HTML'],
     link: 'https://book-store-f2pi.onrender.com/',
     source: 'https://github.com/OnlyUnknown/book-store',
-  },
-
-  {
-    projectId: 'projectThree',
-    aimation: 'fade-left',
-    name: 'Leaderboard',
-    description: 'I have utilized Webpack for the leaderboard and API for posting and recording your score.',
-    image: './pics/leaderboard.png',
-    mobileimage: './pics/leaderboard.png',
-    technologies: ['Webpack', 'Css', 'JavaScript', 'HTML'],
-    link: 'https://leaderboard-cwrq.onrender.com/',
-    source: 'https://github.com/OnlyUnknown/re-Leaderboard',
   },
 
   {
